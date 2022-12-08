@@ -2,7 +2,7 @@ from .models import Movie
 from .serializers.common import MovieSerializer
 
 
-# APIView usa standard HTTP methods for function: GET, POST, PUT, DELETE, ..(external API, asynch response )
+# APIView usa standard HTTP methods for function: GET, POST, PUT, DELETE
 from rest_framework.views import APIView
 #  sending back headers to the client, like the JSON method
 from rest_framework.response import Response
@@ -20,3 +20,13 @@ class MovieListView(APIView):
     print(serialized_movies.data)
     
     return Response(serialized_movies.data, status.HTTP_200_OK)
+  
+  
+  # *** GET SINGLE MOVIE ****
+  
+class MovieDetailView(APIView):
+  
+  def get(self, _request, pk):
+      movie = Movie.objects.get(pk=pk)
+
+      return Response('SINGLE MOVIE ENDPOINT')
