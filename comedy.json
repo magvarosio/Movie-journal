@@ -1,0 +1,491 @@
+[
+  {
+    "model": "movies.movie",
+    "pk": 675445,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/a17F3zXnmuwqxfiDa46mtlosjrv.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        12,
+        35
+      ],
+      "id": 675445,
+      "original_language": "en",
+      "original_title": "PAW Patrol: The Movie",
+      "overview": "Ryder and the pups are called to Adventure City to stop Mayor Humdinger from turning the bustling metropolis into a state of chaos.",
+      "popularity": 108.235,
+      "poster_path": "/ic0intvXZSfBlYPIvWXpU1ivUCO.jpg",
+      "release_date": "2021-08-09",
+      "title": "PAW Patrol: The Movie",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 1055
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 808,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/sRvXNDItGlWCqtO3j6wks52FmbD.jpg",
+      "genre_ids": [
+        16,
+        35,
+        14,
+        12,
+        10751
+      ],
+      "id": 808,
+      "original_language": "en",
+      "original_title": "Shrek",
+      "overview": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.",
+      "popularity": 107.313,
+      "poster_path": "/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
+      "release_date": "2001-05-18",
+      "title": "Shrek",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 14531
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 724665,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/3xGfsAYAxVmYj1CbE5vAkmMJbHo.jpg",
+      "genre_ids": [
+        80,
+        35,
+        9648
+      ],
+      "id": 724665,
+      "original_language": "en",
+      "original_title": "Confess, Fletch",
+      "overview": "The roguishly charming and endlessly troublesome Fletch becomes the prime suspect in a murder case while searching for a stolen art collection. The only way to prove his innocence? Find out which of the long list of suspects is the culprit - from the eccentric art dealer and a missing playboy to a crazy neighbor and Fletch\u2019s Italian girlfriend. Crime, in fact, has never been this disorganized.",
+      "popularity": 107.03,
+      "poster_path": "/66dDPP1nX7DbrResrMa5VJs4jeZ.jpg",
+      "release_date": "2022-09-16",
+      "title": "Confess, Fletch",
+      "video": false,
+      "vote_average": 6.3,
+      "vote_count": 64
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 810214,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/4QroWU3b3LtFq1w3poCKyMX3JJs.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 810214,
+      "original_language": "es",
+      "original_title": "H\u00e9roes de barrio",
+      "overview": "Paula (Luna Fulgencio) is a girl who plays for a girls' soccer team in a small town in Seville. One day she asks her father, Luis (Antonio Pagudo), to bring her famous Betis player Joaqu\u00edn as a visitor, as a reward for her and her teammates, whom Luis presumes to be her great friends.",
+      "popularity": 106.781,
+      "poster_path": "/wKBV1jSKGlWmR5IQaQgIKec1I3g.jpg",
+      "release_date": "2022-06-24",
+      "title": "H\u00e9roes de barrio",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 6
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 667739,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/iOFBH9KtjKMntbP2kheeOpMQTcC.jpg",
+      "genre_ids": [
+        28,
+        35
+      ],
+      "id": 667739,
+      "original_language": "en",
+      "original_title": "The Man from Toronto",
+      "overview": "In a case of mistaken identity, the world\u2019s deadliest assassin, known as the Man from Toronto, and a New York City screw-up are forced to team up after being confused for each other at a rental cabin.",
+      "popularity": 103.702,
+      "poster_path": "/uTCfTibqtk4f90cC59bLPMOmsfc.jpg",
+      "release_date": "2022-06-24",
+      "title": "The Man from Toronto",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 886
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 585245,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/1Wlwnhn5sXUIwlxpJgWszT622PS.jpg",
+      "genre_ids": [
+        10751,
+        12,
+        35,
+        14
+      ],
+      "id": 585245,
+      "original_language": "en",
+      "original_title": "Clifford the Big Red Dog",
+      "overview": "As Emily struggles to fit in at home and at school, she discovers a small red puppy who is destined to become her best friend. When Clifford magically undergoes one heck of a growth spurt, becomes a gigantic dog and attracts the attention of a genetics company, Emily and her Uncle Casey have to fight the forces of greed as they go on the run across New York City. Along the way, Clifford affects the lives of everyone around him and teaches Emily and her uncle the true meaning of acceptance and unconditional love.",
+      "popularity": 102.16,
+      "poster_path": "/oifhfVhUcuDjE61V5bS5dfShQrm.jpg",
+      "release_date": "2021-11-10",
+      "title": "Clifford the Big Red Dog",
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 1460
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1010818,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/9bColKVEAaWfmOLiLZoUhdYfevy.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        35,
+        878
+      ],
+      "id": 1010818,
+      "original_language": "en",
+      "original_title": "Groot's First Steps",
+      "overview": "Following the events of \u201cGuardians of the Galaxy Vol. 1,\u201d Baby Groot is finally ready to try taking his first steps out of his pot\u2014only to learn you have to walk before you can run.",
+      "popularity": 100.21,
+      "poster_path": "/1ifiV9ZJD4tC3tRYcnLIzH0meaB.jpg",
+      "release_date": "2022-08-10",
+      "title": "Groot's First Steps",
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 203
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 809,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/2JoIysXRYYeveJghG1Br53LRoKF.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        35,
+        14,
+        12
+      ],
+      "id": 809,
+      "original_language": "en",
+      "original_title": "Shrek 2",
+      "overview": "Shrek, Fiona and Donkey set off to Far, Far Away to meet Fiona's mother and father. But not everyone is happy. Shrek and the King find it hard to get along, and there's tension in the marriage. The fairy godmother discovers that Shrek has married Fiona instead of her Son Prince Charming and sets about destroying their marriage.",
+      "popularity": 99.602,
+      "poster_path": "/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg",
+      "release_date": "2004-05-19",
+      "title": "Shrek 2",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 10419
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 425,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/a9ykRAWtQnI3SsZDfh8sCJo5cWI.jpg",
+      "genre_ids": [
+        16,
+        35,
+        10751,
+        12
+      ],
+      "id": 425,
+      "original_language": "en",
+      "original_title": "Ice Age",
+      "overview": "With the impending ice age almost upon them, a mismatched trio of prehistoric critters \u2013 Manny the woolly mammoth, Diego the saber-toothed tiger and Sid the giant sloth \u2013 find an orphaned infant and decide to return it to its human parents. Along the way, the unlikely allies become friends but, when enemies attack, their quest takes on far nobler aims.",
+      "popularity": 98.655,
+      "poster_path": "/gLhHHZUzeseRXShoDyC4VqLgsNv.jpg",
+      "release_date": "2002-03-10",
+      "title": "Ice Age",
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 11547
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 244784,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/dMzTG0NCw6ppBQYQnq0FXNKioev.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 244784,
+      "original_language": "de",
+      "original_title": "Sechs Schwedinnen im Pensionat",
+      "overview": "Miss Klein runs a boarding-school. The girls that go there are really \"free spirited.\" They chloroform a peeping Tom, lock two plumbers in the dormitories, strip for a gamekeeper and tease their gym teacher. In class, their biology teacher gets carried away while giving a demonstration of sex positions with the gym teacher. In the meantime, one of the girls makes some exciting alterations to their bicycles to make their rides more enjoyable.",
+      "popularity": 98.583,
+      "poster_path": "/zVJcfDu9gPjLe5p6vC6l7urlyr7.jpg",
+      "release_date": "1979-09-28",
+      "title": "Six Swedish Girls in a Boarding School",
+      "video": false,
+      "vote_average": 5.3,
+      "vote_count": 15
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 2062,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/xgDj56UWyeWQcxQ44f5A3RTWuSs.jpg",
+      "genre_ids": [
+        16,
+        35,
+        10751,
+        14
+      ],
+      "id": 2062,
+      "original_language": "en",
+      "original_title": "Ratatouille",
+      "overview": "Remy, a resident of Paris, appreciates good food and has quite a sophisticated palate. He would love to become a chef so he can create and enjoy culinary masterpieces to his heart's delight. The only problem is, Remy is a rat. When he winds up in the sewer beneath one of Paris' finest restaurants, the rodent gourmet finds himself ideally placed to realize his dream.",
+      "popularity": 98.172,
+      "poster_path": "/t3vaWRPSf6WjDSamIkKDs1iQWna.jpg",
+      "release_date": "2007-06-28",
+      "title": "Ratatouille",
+      "video": false,
+      "vote_average": 7.8,
+      "vote_count": 14598
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 347201,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/lw4Semx1gAQHT7DHIYw8wm9M5fE.jpg",
+      "genre_ids": [
+        16,
+        28,
+        35
+      ],
+      "id": 347201,
+      "original_language": "ja",
+      "original_title": "BORUTO -NARUTO THE MOVIE-",
+      "overview": "The spirited Boruto Uzumaki, son of Seventh Hokage Naruto, is a skilled ninja who possesses the same brashness and passion his father once had. However, the constant absence of his father, who is busy with his Hokage duties, puts a damper on Boruto's fire. He ends up meeting his father's friend Sasuke, and requests to become... his apprentice!? The curtain on the story of the new generation rises!",
+      "popularity": 97.401,
+      "poster_path": "/1k6iwC4KaPvTBt1JuaqXy3noZRY.jpg",
+      "release_date": "2015-08-07",
+      "title": "Boruto: Naruto the Movie",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 1153
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1038627,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/5cimjM66UN2ARoIkA0zKSkqKeXB.jpg",
+      "genre_ids": [
+        10751,
+        35
+      ],
+      "id": 1038627,
+      "original_language": "en",
+      "original_title": "Christmas on Mistletoe Farm",
+      "overview": "After inheriting a farm at Christmas time, a widowed father makes a bumpy adjustment to village life \u2014 while his kids hatch a plan to stay there forever.",
+      "popularity": 96.743,
+      "poster_path": "/rGCwI76dylPViDF9VXFY0ORRhls.jpg",
+      "release_date": "2022-11-23",
+      "title": "Christmas on Mistletoe Farm",
+      "video": false,
+      "vote_average": 5.4,
+      "vote_count": 20
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 512195,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/dK12GIdhGP6NPGFssK2Fh265jyr.jpg",
+      "genre_ids": [
+        28,
+        35,
+        80,
+        53
+      ],
+      "id": 512195,
+      "original_language": "en",
+      "original_title": "Red Notice",
+      "overview": "An Interpol-issued Red Notice is a global alert to hunt and capture the world's most wanted. But when a daring heist brings together the FBI's top profiler and two rival criminals, there's no telling what will happen.",
+      "popularity": 95.046,
+      "poster_path": "/lAXONuqg41NwUMuzMiFvicDET9Y.jpg",
+      "release_date": "2021-11-04",
+      "title": "Red Notice",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 4378
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 293660,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/n28I7FNYIT934OoHhKZn4IIDsrQ.jpg",
+      "genre_ids": [
+        28,
+        12,
+        35
+      ],
+      "id": 293660,
+      "original_language": "en",
+      "original_title": "Deadpool",
+      "overview": "The origin story of former Special Forces operative turned mercenary Wade Wilson, who, after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
+      "popularity": 92.786,
+      "poster_path": "/fSRb7vyIP8rQpL0I47P3qUsEKX3.jpg",
+      "release_date": "2016-02-09",
+      "title": "Deadpool",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 27602
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 5255,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/vQuIi5iOCN3V6yg7nbP5HUiVnpK.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        12,
+        14,
+        35
+      ],
+      "id": 5255,
+      "original_language": "en",
+      "original_title": "The Polar Express",
+      "overview": "When a doubting young boy takes an extraordinary train ride to the North Pole, he embarks on a journey of self-discovery that shows him that the wonder of life never fades for those who believe.",
+      "popularity": 90.281,
+      "poster_path": "/eOoCzH0MqeGr2taUZO4SwG416PF.jpg",
+      "release_date": "2004-11-10",
+      "title": "The Polar Express",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 5294
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 350,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/3tWw50B1xXlCnJ9A7NX4nNzZF4j.jpg",
+      "genre_ids": [
+        35,
+        18,
+        10749
+      ],
+      "id": 350,
+      "original_language": "en",
+      "original_title": "The Devil Wears Prada",
+      "overview": "Andy moves to New York to work in the fashion industry. Her boss is extremely demanding, cruel and won't let her succeed if she doesn't fit into the high class elegant look of their magazine.",
+      "popularity": 89.771,
+      "poster_path": "/8912AsVuS7Sj915apArUFbv6F9L.jpg",
+      "release_date": "2006-06-29",
+      "title": "The Devil Wears Prada",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 10402
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 550988,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/7py8kUCYaOdFn1TfVS87BDBySOz.jpg",
+      "genre_ids": [
+        35,
+        12,
+        878
+      ],
+      "id": 550988,
+      "original_language": "en",
+      "original_title": "Free Guy",
+      "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+      "popularity": 89.737,
+      "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+      "release_date": "2021-08-11",
+      "title": "Free Guy",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 6573
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 177572,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/5tub2Kw6NboWFblA1CgDEwB59jP.jpg",
+      "genre_ids": [
+        12,
+        10751,
+        16,
+        28,
+        35
+      ],
+      "id": 177572,
+      "original_language": "en",
+      "original_title": "Big Hero 6",
+      "overview": "A special bond develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up with a group of friends to form a band of high-tech heroes.",
+      "popularity": 89.427,
+      "poster_path": "/2mxS4wUimwlLmI1xp6QW6NSU361.jpg",
+      "release_date": "2014-10-24",
+      "title": "Big Hero 6",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 14054
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 550,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
+      "genre_ids": [
+        18,
+        53,
+        35
+      ],
+      "id": 550,
+      "original_language": "en",
+      "original_title": "Fight Club",
+      "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+      "popularity": 88.769,
+      "poster_path": "/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+      "release_date": "1999-10-15",
+      "title": "Fight Club",
+      "video": false,
+      "vote_average": 8.4,
+      "vote_count": 25281
+    }
+  }
+]

@@ -1,0 +1,448 @@
+[
+  {
+    "model": "movies.movie",
+    "pk": 1026208,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/mnJtSmQ52TF3vvtCAKH8EtQTaxt.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 1026208,
+      "original_language": "en",
+      "original_title": "Marvel Studios Assembled: The Making of She-Hulk: Attorney at Law",
+      "overview": "Join the likes of Tatiana Maslany, Mark Ruffalo, Tim Roth, and Benedict Wong as they reveal how Marvel Studios\u2019 She-Hulk: Attorney at Law was conceived and shaped. Discover what it took for She-Hulk\u2019s creators to pull off the show\u2019s tricky tone and deliver Marvel Studios\u2019 first truly comedic series \u2013 one that boldly breaks the fourth wall to acknowledge its own audience, no less!",
+      "popularity": 21.089,
+      "poster_path": "/yhFN7yvskzm1Tsknkg46eQbQr9w.jpg",
+      "release_date": "2022-11-03",
+      "title": "Marvel Studios Assembled: The Making of She-Hulk: Attorney at Law",
+      "video": false,
+      "vote_average": 6.2,
+      "vote_count": 9
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 239459,
+    "fields": {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        99
+      ],
+      "id": 239459,
+      "original_language": "en",
+      "original_title": "No Half Measures: Creating the Final Season of Breaking Bad",
+      "overview": "A documentary about the making of season five of the acclaimed AMC series Breaking Bad.",
+      "popularity": 21.023,
+      "poster_path": "/j2QNxbsCabpFQG7KkLYpkFz6IWk.jpg",
+      "release_date": "2013-11-26",
+      "title": "No Half Measures: Creating the Final Season of Breaking Bad",
+      "video": false,
+      "vote_average": 8.4,
+      "vote_count": 94
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 984430,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/uRokRYuqQZf5v1JJERKhKTmJXLn.jpg",
+      "genre_ids": [
+        28,
+        35,
+        99
+      ],
+      "id": 984430,
+      "original_language": "en",
+      "original_title": "James Corden's Top Gun Training with Tom Cruise",
+      "overview": "When \"Top Gun: Maverick\" star Tom Cruise calls you up to hang out for the day, you say yes. And for James Corden, that meant having Tom pilot you in two different fighter planes, pushing the limits of gravity and James's stomach.",
+      "popularity": 19.964,
+      "poster_path": "/e2EILRtu7b6qu4TuwU7BpyHop68.jpg",
+      "release_date": "2022-06-01",
+      "title": "James Corden's Top Gun Training with Tom Cruise",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 11
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1018647,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/buwTFD7YJY5FhbOcwtUhhouKzwg.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 1018647,
+      "original_language": "en",
+      "original_title": "Capturing the Killer Nurse",
+      "overview": "Charlie Cullen was an experienced registered nurse, trusted and beloved by his colleagues at Somerset Medical Center in New Jersey. He was also one of history\u2019s most prolific serial killers, with a body count potentially numbering in the hundreds across multiple medical facilities in the Northeast.",
+      "popularity": 19.877,
+      "poster_path": "/4B3QSIqxOxqWgnGReIJBJNanKl2.jpg",
+      "release_date": "2022-11-11",
+      "title": "Capturing the Killer Nurse",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 22
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 961651,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/tObVe1R7JnO3VXBvAOWTEPmmegu.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 961651,
+      "original_language": "en",
+      "original_title": "Spider-Man: All Roads Lead to No Way Home",
+      "overview": "Join our hosts JB Smoove and Martin Starr for a celebration of 20 years of Spider-Man\u2122 movies!  From the original Sam Raimi trilogy to Marc Webb\u2019s \u201camazing\u201d movies to the latest trio from Director Jon Watts, we will take viewers through the stars, the stunts and action, the villains and heroes and an homage to Stan Lee, along with a few surprises. Find your favourite Spider-Man pajamas and prepare to swing through the past two decades of Spider-Man at the movies!",
+      "popularity": 19.801,
+      "poster_path": "/e2LLmI5wKIrWGAy9Of3yyWu7Szn.jpg",
+      "release_date": "2022-05-03",
+      "title": "Spider-Man: All Roads Lead to No Way Home",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 26
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 447399,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/chn9jBtOC65JlOd4IObtNjwX3UK.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 447399,
+      "original_language": "en",
+      "original_title": "X-Men: The Mutant Watch",
+      "overview": "While Senator Kelly addresses a senate committee about the supposed mutant menace, we learn about the making of the movie, X-Men.",
+      "popularity": 19.749,
+      "poster_path": "/4FwbuT0NJwcHGRqRc3kpTjgj0jS.jpg",
+      "release_date": "2001-08-11",
+      "title": "X-Men: The Mutant Watch",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 179
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 63404,
+    "fields": {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        99,
+        35
+      ],
+      "id": 63404,
+      "original_language": "en",
+      "original_title": "American Pie: Revealed",
+      "overview": "Documentary about the making of American Pie (1999), American Pie 2 (2001) and American Wedding (2003).",
+      "popularity": 19.22,
+      "poster_path": "/zd6vScAUAp3blRMa2ZCsFY2SUNk.jpg",
+      "release_date": "2004-01-02",
+      "title": "American Pie: Revealed",
+      "video": false,
+      "vote_average": 5.9,
+      "vote_count": 147
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 78192,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/wz1eLrNxK77xAY7JYi4iYrtiMEd.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 78192,
+      "original_language": "en",
+      "original_title": "Michael Jackson: The Life of an Icon",
+      "overview": "See Michael Jackson, one of the most recognizable and popular entertainers of all time, like never before in the feature-length tribute Michael Jackson: The Life of an Icon. Known to millions of fans worldwide for his record-breaking albums, groundbreaking music videos, mesmerizing dance moves and humanitarian efforts, his true story has never really been told...until now. This unprecedented look into the King of Pop's fascinating life includes all-new interviews with his mother Katherine Jackson as well as siblings Tito and Rebbie Jackson, family, friends and music legends such as Smokey Robinson, Dionne Warwick and many more.",
+      "popularity": 18.901,
+      "poster_path": "/liPl2d9qx2TWSDKaduUbwC0V1vY.jpg",
+      "release_date": "2011-11-02",
+      "title": "Michael Jackson: The Life of an Icon",
+      "video": false,
+      "vote_average": 7.8,
+      "vote_count": 106
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 913862,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/5CUdP1wrg4S6yZrDHuW3JLohYLO.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 913862,
+      "original_language": "en",
+      "original_title": "Downfall: The Case Against Boeing",
+      "overview": "Investigators reveal how Boeing\u2019s alleged priority of profit over safety could have contributed to two catastrophic crashes within months of each other.",
+      "popularity": 18.888,
+      "poster_path": "/LRPi6b6gpDyKuveut38S8R38NI.jpg",
+      "release_date": "2022-02-09",
+      "title": "Downfall: The Case Against Boeing",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 116
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 740996,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/dKtkvL8tScUlh67vig2Ama74Jz1.jpg",
+      "genre_ids": [
+        99,
+        10402
+      ],
+      "id": 740996,
+      "original_language": "ko",
+      "original_title": "\ube14\ub799\ud551\ud06c: \uc138\uc0c1\uc744 \ubc1d\ud600\ub77c",
+      "overview": "Record-shattering Korean girl band BLACKPINK tell their story \u2014  and detail the hard fought journey of the dreams and trials behind their meteoric rise.",
+      "popularity": 18.768,
+      "poster_path": "/wwrvjmcgkDyB2RbCbIVLXZf82pl.jpg",
+      "release_date": "2020-10-14",
+      "title": "BLACKPINK: Light Up the Sky",
+      "video": false,
+      "vote_average": 8.3,
+      "vote_count": 440
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 956458,
+    "fields": {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        99
+      ],
+      "id": 956458,
+      "original_language": "en",
+      "original_title": "I Am DB Cooper",
+      "overview": "Two bounty hunters meet an old man claiming to be hijacker DB Cooper. Can they help him dig up the cash he hid half a century ago? Documentary footage blends with period reenactments to tell the tangled tale.",
+      "popularity": 18.767,
+      "poster_path": "/3wcSg4DEjRTv24yLfnjeCdFve5I.jpg",
+      "release_date": "2022-12-09",
+      "title": "I Am DB Cooper",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 438478,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/2VFUh8spzyNbRNPyncIrFmSwBrd.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 438478,
+      "original_language": "fr",
+      "original_title": "Pornocratie: Les nouvelles multinationales du sexe",
+      "overview": "Never before have we watched as much porn as today yet the traditional porn industry is dying. The arrival of web sites showing amateur clips has transformed the way porn is made and consumed. Behind this transformation lies one opaque multinational.",
+      "popularity": 18.594,
+      "poster_path": "/kfa1KHSaewjv9sSrrHDdWNdroyv.jpg",
+      "release_date": "2017-03-12",
+      "title": "Pornocracy: The New Sex Multinationals",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 30
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 992536,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/wxzaMHdRTUHllGjIvEqRJ3iAs8J.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 992536,
+      "original_language": "fr",
+      "original_title": "L'assassin de ma fille",
+      "overview": "A father fights for decades to bring his daughter's killer to justice in France and Germany before taking extreme measures.",
+      "popularity": 18.338,
+      "poster_path": "/8apoud6p1sdd4oT8a6nYCzGpi6R.jpg",
+      "release_date": "2022-07-12",
+      "title": "My Daughter's Killer",
+      "video": false,
+      "vote_average": 6.4,
+      "vote_count": 41
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 964894,
+    "fields": {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        99
+      ],
+      "id": 964894,
+      "original_language": "en",
+      "original_title": "Loudmouth",
+      "overview": "Josh Alexander\u2019s Loudmouth documents the winding road that is Al Sharpton\u2019s life story as an iconic activist and spiritual leader.",
+      "popularity": 18.207,
+      "poster_path": "/xbqqUSJg5DuSaNDOrfyv7OS9YiR.jpg",
+      "release_date": "2022-12-09",
+      "title": "Loudmouth",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1002310,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/nE5V2VSX5u8OaXQHoOAoXbYXVP5.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 1002310,
+      "original_language": "en",
+      "original_title": "Untold: The Race of the Century",
+      "overview": "The Australia II yacht crew looks back on the motivation, dedication and innovation that led to their historic victory at the 1983 America's Cup.",
+      "popularity": 18.016,
+      "poster_path": "/49IMDELdD1LakVrnfVAi4qSfq4I.jpg",
+      "release_date": "2022-09-06",
+      "title": "Untold: The Race of the Century",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 16
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 813881,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/xujdtM1rkqmRIQXeopuL355ciwJ.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 813881,
+      "original_language": "en",
+      "original_title": "The Real Black Panther",
+      "overview": "In the Nagarhole Tiger Reserve, there is a kingdom named Kabini, which is home to a rogue confederation of animal tribes vying for dominance. But, a lone black panther named Saya is challenging the status quo by staking his claim to the throne.",
+      "popularity": 17.925,
+      "poster_path": "/egklJGMJguEvyG3bxSqrhxXi3Af.jpg",
+      "release_date": "2020-02-20",
+      "title": "The Real Black Panther",
+      "video": false,
+      "vote_average": 5,
+      "vote_count": 5
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 14463,
+    "fields": {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        99,
+        36
+      ],
+      "id": 14463,
+      "original_language": "en",
+      "original_title": "Alone in the Wilderness",
+      "overview": "Dick Proenneke retired at age 50 in 1967 and decided to build his own cabin in the wilderness at the base of the Aleutian Peninsula, in what is now Lake Clark National Park. Using color footage he shot himself, Proenneke traces how he came to this remote area, selected a homestead site and built his log cabin completely by himself. The documentary covers his first year in-country, showing his day-to-day activities and the passing of the seasons as he sought to scratch out a living alone in the wilderness.",
+      "popularity": 17.916,
+      "poster_path": "/fOzc4vwTG9d9tlhX6EyPHu3cuiq.jpg",
+      "release_date": "2004-10-08",
+      "title": "Alone in the Wilderness",
+      "video": false,
+      "vote_average": 7.9,
+      "vote_count": 65
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 482408,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/mjCYpJXCBYDZgMr1U1KZcFgFDfC.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 482408,
+      "original_language": "en",
+      "original_title": "Harry Potter: A History Of Magic",
+      "overview": "A thrilling journey through legends, belief and folklore, this film goes behind the scenes with the British Library as they search to tell that story through objects in their collection, in an ambitious new exhibition: Harry Potter: A History Of Magic.  J.K. Rowling, who is lending unseen manuscripts, drawings and drafts from her private archives (which will sit alongside treasures from the British Library, as well as original drafts and drawings from Jim Kay) talks about some of the personal items she has lent to the exhibition and gives new insight into her writing, looking at some of the objects from the exhibition that have fired her imagination.",
+      "popularity": 17.631,
+      "poster_path": "/geike7VgTrftxwzcvND4dRdZdAv.jpg",
+      "release_date": "2017-10-28",
+      "title": "Harry Potter: A History Of Magic",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 44
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 212193,
+    "fields": {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        99
+      ],
+      "id": 212193,
+      "original_language": "en",
+      "original_title": "Zombies: A Living History",
+      "overview": "Zombies: are they real? Every culture creates its own version of a zombie. There have been diseases in history that have mimicked behavior of a zombie virus. The plausibility is there. You would never be up against one zombie.you would be up against thousands or millions of zombies. How would you survive?",
+      "popularity": 17.568,
+      "poster_path": "/klo2RGBYxkriNT12qdIjVgpja55.jpg",
+      "release_date": "2011-10-25",
+      "title": "Zombies: A Living History",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 10
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1023798,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/so0pRv18ozmJ9nrlU26euzZi3a5.jpg",
+      "genre_ids": [
+        99,
+        10402
+      ],
+      "id": 1023798,
+      "original_language": "en",
+      "original_title": "Pentatonix: Around the World for the Holidays",
+      "overview": "Superstar a capella group Pentatonix is struggling to find inspiration for their annual holiday album, and the clock is ticking. To make matters worse, their well-intentioned but misguided manager mistakenly locks them in a magic mailroom. But with the help of some Disney magic, we\u2019re soon on a whirlwind tour around the world, discovering holiday traditions and inspiration from Pentatonix fans all around the globe: from Tokyo to Grenada, Ghana to Mexico and Iceland.",
+      "popularity": 17.534,
+      "poster_path": "/17fzPvJOabO0KEImnfdFVEdgmgH.jpg",
+      "release_date": "2022-12-02",
+      "title": "Pentatonix: Around the World for the Holidays",
+      "video": false,
+      "vote_average": 6,
+      "vote_count": 1
+    }
+  }
+]

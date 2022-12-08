@@ -1,0 +1,476 @@
+[
+  {
+    "model": "movies.movie",
+    "pk": 626872,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/fI8hv1IqWUIUjx4YRfl6TWhdqHW.jpg",
+      "genre_ids": [
+        28,
+        18,
+        9648,
+        53
+      ],
+      "id": 626872,
+      "original_language": "ko",
+      "original_title": "\ube44\uc0c1\uc120\uc5b8",
+      "overview": "While investigating a terroristic threat that goes viral online, Korean authorities discover that a suspect has recently boarded an international flight bound for the United States. When a healthy passenger on the same flight suddenly dies a gruesome death of unknown cause, panic erupts both in-flight and on the ground. With steadily decreasing fuel and international refusals to offer aid, the captain and crew will be forced to take unprecedented emergency measures in an attempt to save the lives of their passengers.",
+      "popularity": 129.117,
+      "poster_path": "/hxxtBWo50hwD37Q5cLEzaSDVyKZ.jpg",
+      "release_date": "2022-08-03",
+      "title": "Emergency Declaration",
+      "video": false,
+      "vote_average": 7.8,
+      "vote_count": 115
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1008779,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/iGHFjqxH5c8zRibnZbh9qEYTBho.jpg",
+      "genre_ids": [
+        28
+      ],
+      "id": 1008779,
+      "original_language": "es",
+      "original_title": "La Princesa",
+      "overview": "Refusing to marry a drug lord, Grecia is determined to pay her father's debt herself. To earn the money, she decides to bet in the Sinaloa palenques, where she meets Armando. He is immediately captivated by her beauty and fearless attitude. But, little does he know that falling for her will be his most dangerous endeavor. Based on the famous corrido hit \"La Princesa\", by Alfredo R\u00edos \"El Komander\".",
+      "popularity": 128.896,
+      "poster_path": "/ksxiXqwPuEjh3gct1zUpyzNoQFt.jpg",
+      "release_date": "2022-02-01",
+      "title": "The princess",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 76
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 961484,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/ftGzl2GCyko61Qp161bQElN2Uzd.jpg",
+      "genre_ids": [
+        28,
+        53
+      ],
+      "id": 961484,
+      "original_language": "en",
+      "original_title": "Last Seen Alive",
+      "overview": "After Will Spann's wife suddenly vanishes at a gas station, his desperate search to find her leads him down a dark path that forces him to run from authorities and take the law into his own hands.",
+      "popularity": 127.232,
+      "poster_path": "/qvqyDj34Uivokf4qIvK4bH0m0qF.jpg",
+      "release_date": "2022-05-19",
+      "title": "Last Seen Alive",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 522
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 993145,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/5EzpTMkpg3DecNoP2DAOBlh0Fi6.jpg",
+      "genre_ids": [
+        28,
+        80
+      ],
+      "id": 993145,
+      "original_language": "en",
+      "original_title": "Bullet Proof",
+      "overview": "The Thief  pulls off the robbery of a lifetime when he robs the psychotic drug lord, Temple. The plan goes off without a hitch until the Thief discovers a stowaway in his getaway car - Temple's pregnant wife, Mia.",
+      "popularity": 126.875,
+      "poster_path": "/cj6YmTAU7Jvn3w6d2NfjQzpX7Pw.jpg",
+      "release_date": "2022-08-19",
+      "title": "Bullet Proof",
+      "video": false,
+      "vote_average": 5.6,
+      "vote_count": 24
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 24428,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+      "genre_ids": [
+        878,
+        28,
+        12
+      ],
+      "id": 24428,
+      "original_language": "en",
+      "original_title": "The Avengers",
+      "overview": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+      "popularity": 125.693,
+      "poster_path": "/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+      "release_date": "2012-04-25",
+      "title": "The Avengers",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 27844
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 299534,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+      "genre_ids": [
+        12,
+        878,
+        28
+      ],
+      "id": 299534,
+      "original_language": "en",
+      "original_title": "Avengers: Endgame",
+      "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+      "popularity": 125.531,
+      "poster_path": "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+      "release_date": "2019-04-24",
+      "title": "Avengers: Endgame",
+      "video": false,
+      "vote_average": 8.3,
+      "vote_count": 22193
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1006851,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/bL7VIHQ4Nl0hZMw8ZeX6byoEEZJ.jpg",
+      "genre_ids": [
+        878,
+        35,
+        28
+      ],
+      "id": 1006851,
+      "original_language": "en",
+      "original_title": "Office Invasion",
+      "overview": "Three friends come together to defend their valuable mining company from\u2026aliens?! What could possibly go wrong?",
+      "popularity": 125.159,
+      "poster_path": "/khcVwO0gwguC1CndbxtH1bzk4aj.jpg",
+      "release_date": "2022-08-10",
+      "title": "Office Invasion",
+      "video": false,
+      "vote_average": 5.8,
+      "vote_count": 90
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 791373,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/pcDc2WJAYGJTTvRSEIpRZwM3Ola.jpg",
+      "genre_ids": [
+        28,
+        12,
+        14,
+        878
+      ],
+      "id": 791373,
+      "original_language": "en",
+      "original_title": "Zack Snyder's Justice League",
+      "overview": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
+      "popularity": 123.919,
+      "poster_path": "/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg",
+      "release_date": "2021-03-18",
+      "title": "Zack Snyder's Justice League",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 8367
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 460465,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/9yBVqNruk6Ykrwc32qrK2TIE5xw.jpg",
+      "genre_ids": [
+        28,
+        14,
+        12
+      ],
+      "id": 460465,
+      "original_language": "en",
+      "original_title": "Mortal Kombat",
+      "overview": "Washed-up MMA fighter Cole Young, unaware of his heritage, and hunted by Emperor Shang Tsung's best warrior, Sub-Zero, seeks out and trains with Earth's greatest champions as he prepares to stand against the enemies of Outworld in a high stakes battle for the universe.",
+      "popularity": 123.424,
+      "poster_path": "/nkayOAUBUu4mMvyNf9iHSUiPjF1.jpg",
+      "release_date": "2021-04-07",
+      "title": "Mortal Kombat",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 4992
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 759175,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/5PnypKiSj2efSPqThNjTXz8jwOg.jpg",
+      "genre_ids": [
+        14,
+        28
+      ],
+      "id": 759175,
+      "original_language": "en",
+      "original_title": "The Princess",
+      "overview": "A beautiful, strong-willed young royal refuses to wed the cruel sociopath to whom she is betrothed and is kidnapped and locked in a remote tower of her father\u2019s castle. With her scorned, vindictive suitor intent on taking her father\u2019s throne, the princess must protect her family and save the kingdom.",
+      "popularity": 123.077,
+      "poster_path": "/9pCoqX24a6rE981fY1O3PmhiwrB.jpg",
+      "release_date": "2022-06-16",
+      "title": "The Princess",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 588
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 624860,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/eNI7PtK6DEYgZmHWP9gQNuff8pv.jpg",
+      "genre_ids": [
+        878,
+        28,
+        12
+      ],
+      "id": 624860,
+      "original_language": "en",
+      "original_title": "The Matrix Resurrections",
+      "overview": "Plagued by strange memories, Neo's life takes an unexpected turn when he finds himself back inside the Matrix.",
+      "popularity": 118.116,
+      "poster_path": "/8c4a8kE7PizaGQQnditMmI1xbRp.jpg",
+      "release_date": "2021-12-16",
+      "title": "The Matrix Resurrections",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 4331
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 838197,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/9mprVUhXPjdpSaiSon44uG9Dnv2.jpg",
+      "genre_ids": [
+        35,
+        28
+      ],
+      "id": 838197,
+      "original_language": "it",
+      "original_title": "...Altrimenti ci arrabbiamo!",
+      "overview": "Carezza and Sorriso, brothers very different from each other and in quarrel since childhood, will have to put aside their controversies to recover the legendary Dune Buggy, once belonged to their beloved father and now stolen from him by Torsillo, an unscrupulous building speculator, and his son Raniero. In doing so, they will forge an unusual alliance with a circus community, headed by the beautiful and dangerous Miriam and threatened by Torsillo's dirty business. Between daring chases, memorable fights and delicate meals based on beer and sausages, will the two brothers be able to find their beloved car?",
+      "popularity": 117.576,
+      "poster_path": "/gfQiGDB6EFKXQJo6eY0qmZIcf41.jpg",
+      "release_date": "2022-03-23",
+      "title": "Watch Out, We're Mad",
+      "video": false,
+      "vote_average": 5.4,
+      "vote_count": 89
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 919355,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/l99dylTOAMkwKSr54X5ytiEtnLA.jpg",
+      "genre_ids": [
+        14,
+        12,
+        28
+      ],
+      "id": 919355,
+      "original_language": "en",
+      "original_title": "Dragon Knight",
+      "overview": "Many years after the war has been lost, and all the dragons slain, a lone knight travels the lands of Agonos seeking to raise an army against the demon lord Abaddon. When a healer's vision reveals that one dragon still lives, and together with an eager young squire, the knight sets off in search of the fabled creature. As the armies of Abaddon descend on the human kingdoms, the dragon is their last hope of fending off the horde, before it lays waste to the lands of men. But does the creature even exist? And if it does, will it fight for them once more?",
+      "popularity": 117.124,
+      "poster_path": "/zkGFADykBtfPfTv7YJooxTH52ph.jpg",
+      "release_date": "2022-03-21",
+      "title": "Dragon Knight",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 32
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 581726,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/wjQXZTlFM3PVEUmKf1sUajjygqT.jpg",
+      "genre_ids": [
+        878,
+        28,
+        53
+      ],
+      "id": 581726,
+      "original_language": "en",
+      "original_title": "Infinite",
+      "overview": "Evan McCauley has skills he never learned and memories of places he has never visited. Self-medicated and on the brink of a mental breakdown, a secret group that call themselves \u201cInfinites\u201d come to his rescue, revealing that his memories are real.",
+      "popularity": 116.935,
+      "poster_path": "/niw2AKHz6XmwiRMLWaoyAOAti0G.jpg",
+      "release_date": "2021-09-09",
+      "title": "Infinite",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 1264
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 47971,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/4QLdZ2A8mkDWp2rpfgDrwmeCtUW.jpg",
+      "genre_ids": [
+        28,
+        12,
+        80
+      ],
+      "id": 47971,
+      "original_language": "en",
+      "original_title": "xXx: Return of Xander Cage",
+      "overview": "Extreme athlete turned government operative Xander Cage comes out of self-imposed exile, thought to be long dead, and is set on a collision course with deadly alpha warrior Xiang and his team in a race to recover a sinister and seemingly unstoppable weapon known as Pandora's Box. Recruiting an all-new group of thrill-seeking cohorts, Xander finds himself enmeshed in a deadly conspiracy that points to collusion at the highest levels of world governments.",
+      "popularity": 116.782,
+      "poster_path": "/hba8zREJpP1AYhaXgb2oJLQeO0K.jpg",
+      "release_date": "2017-01-13",
+      "title": "xXx: Return of Xander Cage",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 7593
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1007401,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/endVnEgUGjibpLaF0yjUX2CWhh4.jpg",
+      "genre_ids": [
+        16,
+        28,
+        14
+      ],
+      "id": 1007401,
+      "original_language": "en",
+      "original_title": "Mortal Kombat Legends: Snow Blind",
+      "overview": "Hellbent on taking over Earthrealm, Kano viciously attacks town after town with the aid of three cold-blooded Black Dragon mercenaries. Those who don\u2019t submit are annihilated but one young man won\u2019t bend the knee to Kano: Kenshi.",
+      "popularity": 116.587,
+      "poster_path": "/ucB7Wq9LDWcblN7P9Qy2BSteeJm.jpg",
+      "release_date": "2022-10-09",
+      "title": "Mortal Kombat Legends: Snow Blind",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 86
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 999205,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/tviTAFuCFRLElylvBAMPjdRnCDZ.jpg",
+      "genre_ids": [
+        53,
+        28
+      ],
+      "id": 999205,
+      "original_language": "en",
+      "original_title": "Stowaway",
+      "overview": "A tenacious party girl fights to survive after three thieves commandeer her luxury yacht. Unable to escape and trapped on the yacht at high seas, the prey becomes the hunter as she turns the tables on the intruders and takes matters into her own hands.",
+      "popularity": 116.516,
+      "poster_path": "/1RmugOkBFU5eXu1dbr1zdxChLfQ.jpg",
+      "release_date": "2022-08-31",
+      "title": "Stowaway",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 47
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 524434,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/c6H7Z4u73ir3cIoCteuhJh7UCAR.jpg",
+      "genre_ids": [
+        878,
+        28,
+        12
+      ],
+      "id": 524434,
+      "original_language": "en",
+      "original_title": "Eternals",
+      "overview": "The Eternals are a team of ancient aliens who have been living on Earth in secret for thousands of years. When an unexpected tragedy forces them out of the shadows, they are forced to reunite against mankind\u2019s most ancient enemy, the Deviants.",
+      "popularity": 115.096,
+      "poster_path": "/lFByFSLV5WDJEv3KabbdAF959F2.jpg",
+      "release_date": "2021-11-03",
+      "title": "Eternals",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 6564
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 725201,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/2u1YBNBlSwvBReyvI7i5z5ykQXP.jpg",
+      "genre_ids": [
+        28,
+        53
+      ],
+      "id": 725201,
+      "original_language": "en",
+      "original_title": "The Gray Man",
+      "overview": "When a shadowy CIA agent uncovers damning agency secrets, he's hunted across the globe by a sociopathic rogue operative who's put a bounty on his head.",
+      "popularity": 113.508,
+      "poster_path": "/5Eom3JsXgQlCj6QIsGCwXkX7wyH.jpg",
+      "release_date": "2022-07-13",
+      "title": "The Gray Man",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 2428
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 951368,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/mCAkUizRRIwKMOlne9CIoJ3utSc.jpg",
+      "genre_ids": [
+        53,
+        10770,
+        28
+      ],
+      "id": 951368,
+      "original_language": "en",
+      "original_title": "Your Boyfriend Is Mine",
+      "overview": "Over the objection of his girlfriend, Ben agrees to take a job as the \u201clive in\u201d man servant to a wealthy businesswoman, Amanda, but quickly realizes he has made a deal with the devil, and has put himself and his girlfriend in mortal jeopardy",
+      "popularity": 111.854,
+      "poster_path": "/2OOYNZLKjdX8Z5KNyz7zZnHmodJ.jpg",
+      "release_date": "2022-03-19",
+      "title": "Your Boyfriend Is Mine",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 38
+    }
+  }
+]

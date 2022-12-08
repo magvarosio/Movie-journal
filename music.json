@@ -1,0 +1,485 @@
+[
+  {
+    "model": "movies.movie",
+    "pk": 279,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/hCHO4FMRSJdGf0urLtGnST9Lhi3.jpg",
+      "genre_ids": [
+        36,
+        10402,
+        18
+      ],
+      "id": 279,
+      "original_language": "en",
+      "original_title": "Amadeus",
+      "overview": "Wolfgang Amadeus Mozart is a remarkably talented young Viennese composer who unwittingly finds a fierce rival in the disciplined and determined Antonio Salieri. Resenting Mozart for both his hedonistic lifestyle and his undeniable talent, the highly religious Salieri is gradually consumed by his jealousy and becomes obsessed with Mozart's downfall, leading to a devious scheme that has dire consequences for both men.",
+      "popularity": 21.482,
+      "poster_path": "/1n5VUlCqgmVax1adxGZm8oCFaKc.jpg",
+      "release_date": "1984-09-19",
+      "title": "Amadeus",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 3525
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 824,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/19TLetNUXW9PjggtZBxr9lInTqL.jpg",
+      "genre_ids": [
+        18,
+        10749,
+        10402
+      ],
+      "id": 824,
+      "original_language": "en",
+      "original_title": "Moulin Rouge!",
+      "overview": "A celebration of love and creative inspiration takes place in the infamous, gaudy and glamorous Parisian nightclub, at the cusp of the 20th century. A young poet, who is plunged into the heady world of Moulin Rouge, begins a passionate affair with the club's most notorious and beautiful star.",
+      "popularity": 21.465,
+      "poster_path": "/fTNJ1nwv4wvnxpA4smgRPMSvU5p.jpg",
+      "release_date": "2001-05-24",
+      "title": "Moulin Rouge!",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 3978
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 525,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/osrCL96kbVPcpe56Jsp1IIFTfpm.jpg",
+      "genre_ids": [
+        10402,
+        35,
+        28,
+        80
+      ],
+      "id": 525,
+      "original_language": "en",
+      "original_title": "The Blues Brothers",
+      "overview": "Jake Blues, just released from prison, puts his old band back togther to save the Catholic home where he and his brother Elwood were raised.",
+      "popularity": 21.044,
+      "poster_path": "/lpmMVXDqfEcMaqTRbAcGYZ4hYVg.jpg",
+      "release_date": "1980-06-16",
+      "title": "The Blues Brothers",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 3551
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 417261,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/tUJTaWlDbdC5kTov5zFVCWfCzGO.jpg",
+      "genre_ids": [
+        10749,
+        18,
+        10402
+      ],
+      "id": 417261,
+      "original_language": "en",
+      "original_title": "Forever My Girl",
+      "overview": "After being gone for a decade, a country star returns home to the love he left behind.",
+      "popularity": 20.629,
+      "poster_path": "/bKqdggnIPeOI15VqtBZTkvh4hA9.jpg",
+      "release_date": "2018-01-26",
+      "title": "Forever My Girl",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 1055
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 592863,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/m0ppE0yXQeFWzlwLdDUFRfanp9R.jpg",
+      "genre_ids": [
+        10402,
+        18,
+        36
+      ],
+      "id": 592863,
+      "original_language": "en",
+      "original_title": "Respect",
+      "overview": "The rise of Aretha Franklin\u2019s career from a child singing in her father\u2019s church\u2019s choir to her international superstardom.",
+      "popularity": 20.47,
+      "poster_path": "/iUtPwOBZJc8uJnDqlCXTibdgxKz.jpg",
+      "release_date": "2021-08-12",
+      "title": "Respect",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 300
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 13649,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/aS7M839gMmcokvUwNM3DFqOLqzu.jpg",
+      "genre_ids": [
+        35,
+        18,
+        10751,
+        10402,
+        10749,
+        10770
+      ],
+      "id": 13649,
+      "original_language": "en",
+      "original_title": "High School Musical 2",
+      "overview": "The East High Wildcats are gearing up for big fun as they land the coolest summer jobs imaginable. Troy, Gabriella, Chad, and Taylor have scored sweet gigs at the Lava Springs Country Club owned by Sharpay and Ryan's family. Sharpay's first rule of business: Get Troy. As Troy experiences a life of privilege he's never known, will he give up the Wildcats and Gabriella to rise to the top?",
+      "popularity": 20.297,
+      "poster_path": "/la2kiVWDm2vuB4APZDgCCmuBh4K.jpg",
+      "release_date": "2007-08-17",
+      "title": "High School Musical 2",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 3386
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 16052,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/kcBlY5FasH8ti150aYExULw53ui.jpg",
+      "genre_ids": [
+        10402,
+        18,
+        36
+      ],
+      "id": 16052,
+      "original_language": "en",
+      "original_title": "Selena",
+      "overview": "In this biographical drama, Selena Quintanilla is born into a musical Mexican-American family in Texas. Her father, Abraham, realizes that his young daughter is talented and begins performing with her at small venues. She finds success and falls for her guitarist, Chris Perez, who draws the ire of her father. Seeking mainstream stardom, Selena begins recording an English-language album which, tragically, she would never complete.",
+      "popularity": 20.234,
+      "poster_path": "/j8xX3yBAFOayfSaImgLZPnAcdWz.jpg",
+      "release_date": "1997-03-21",
+      "title": "Selena",
+      "video": false,
+      "vote_average": 7.8,
+      "vote_count": 1055
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 2005,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/8gn0V6R8V513vT3tOsP2IfrkzEu.jpg",
+      "genre_ids": [
+        10402,
+        35
+      ],
+      "id": 2005,
+      "original_language": "en",
+      "original_title": "Sister Act",
+      "overview": "A Reno singer witnesses a mob murder and the cops stash her in a nunnery to protect her from the mob's hitmen. The mother superior does not trust her, and takes steps to limit her influence on the other nuns. Eventually the singer rescues the failing choir and begins helping with community projects, which gets her an interview on TV\u2014and identification by the mob.",
+      "popularity": 20.04,
+      "poster_path": "/xZvVSZ0RTxIjblLV87vs7ADM12m.jpg",
+      "release_date": "1992-05-28",
+      "title": "Sister Act",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 2721
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 364111,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/kfGUVDM03SGHIV1e3oS7R68j8Ek.jpg",
+      "genre_ids": [
+        16,
+        18,
+        10402,
+        10749
+      ],
+      "id": 364111,
+      "original_language": "ja",
+      "original_title": "\u5fc3\u304c\u53eb\u3073\u305f\u304c\u3063\u3066\u308b\u3093\u3060\u3002",
+      "overview": "A young girl had her voice magically taken away so that she would never hurt people with it, but her outlook changes when she encounters music and friendship. Will Naruse be able to convey the anthem of her heart?",
+      "popularity": 20.009,
+      "poster_path": "/7bJHM6t6j3YLjDNTwe4hyghKqSr.jpg",
+      "release_date": "2015-09-19",
+      "title": "The Anthem of the Heart",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 321
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 2179,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/frWnQLBGB6ROzdK2aPCCLRnz24J.jpg",
+      "genre_ids": [
+        35,
+        10402
+      ],
+      "id": 2179,
+      "original_language": "en",
+      "original_title": "Tenacious D in The Pick of Destiny",
+      "overview": "In Venice Beach, naive Midwesterner JB bonds with local slacker KG and they form the rock band Tenacious D. Setting out to become the world's greatest band is no easy feat, so they set out to steal what could be the answer to their prayers... a magical guitar pick housed in a rock-and-roll museum some 300 miles away.",
+      "popularity": 19.848,
+      "poster_path": "/7iixTGu21JEWP8QclwJLqMt2RBH.jpg",
+      "release_date": "2006-11-22",
+      "title": "Tenacious D in The Pick of Destiny",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 1327
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 6282,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/d0TTg0Z00sHx7lwjYGcEDkbM0It.jpg",
+      "genre_ids": [
+        35,
+        18,
+        10402,
+        10749
+      ],
+      "id": 6282,
+      "original_language": "en",
+      "original_title": "Coyote Ugly",
+      "overview": "Graced with a velvet voice, 21-year-old Violet Sanford heads to New York to pursue her dream of becoming a songwriter only to find her aspirations sidelined by the accolades and notoriety she receives at her \"day\" job as a barmaid at Coyote Ugly. The \"Coyotes\" as they are affectionately called tantalize customers and the media alike with their outrageous antics, making Coyote Ugly the watering hole for guys on the prowl.",
+      "popularity": 19.566,
+      "poster_path": "/xYM0laKrEqjiRSQNvqRrXPXN3iL.jpg",
+      "release_date": "2000-07-30",
+      "title": "Coyote Ugly",
+      "video": false,
+      "vote_average": 6.2,
+      "vote_count": 1772
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 502033,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/7b5R8FfGUzlxfhOkPpL3xyIeuyF.jpg",
+      "genre_ids": [
+        18,
+        10402
+      ],
+      "id": 502033,
+      "original_language": "en",
+      "original_title": "Sound of Metal",
+      "overview": "Metal drummer Ruben begins to lose his hearing. When a doctor tells him his condition will worsen, he thinks his career and life is over. His girlfriend Lou checks the former addict into a rehab for the deaf hoping it will prevent a relapse and help him adapt to his new life. After being welcomed and accepted just as he is, Ruben must choose between his new normal and the life he once knew.",
+      "popularity": 19.39,
+      "poster_path": "/3178oOJKKPDeQ2legWQvMPpllv.jpg",
+      "release_date": "2020-11-20",
+      "title": "Sound of Metal",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 1971
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 5123,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/3hU0tavXwvqydaoV728O6NbNiLP.jpg",
+      "genre_ids": [
+        10751,
+        18,
+        10402
+      ],
+      "id": 5123,
+      "original_language": "en",
+      "original_title": "August Rush",
+      "overview": "Lyla and Louis, a singer and a musician, fall in love, but are soon compelled to separate. Lyla is forced to give up her newborn but unknown to her, he grows up to become a musical genius.",
+      "popularity": 19.383,
+      "poster_path": "/oA6ZeICPINiS6YtD5WZeBaGVmuT.jpg",
+      "release_date": "2007-11-21",
+      "title": "August Rush",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 2417
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 504608,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/isnJGDrfR9dIrHMsPTvHtJaGEpc.jpg",
+      "genre_ids": [
+        10402,
+        18,
+        36
+      ],
+      "id": 504608,
+      "original_language": "en",
+      "original_title": "Rocketman",
+      "overview": "The story of Elton John's life, from his years as a prodigy at the Royal Academy of Music through his influential and enduring musical partnership with Bernie Taupin.",
+      "popularity": 19.307,
+      "poster_path": "/f4FF18ia7yTvHf2izNrHqBmgH8U.jpg",
+      "release_date": "2019-05-17",
+      "title": "Rocketman",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 3995
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 10437,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/68KpdTMdBTEemcvPZ09J8C32WpG.jpg",
+      "genre_ids": [
+        10402,
+        35,
+        10751,
+        14,
+        18
+      ],
+      "id": 10437,
+      "original_language": "en",
+      "original_title": "The Muppet Christmas Carol",
+      "overview": "A retelling of the classic Dickens tale of Ebenezer Scrooge, miser extraordinaire. He is held accountable for his dastardly ways during night-time visitations by the Ghosts of Christmas Past, Present and Future.",
+      "popularity": 19.02,
+      "poster_path": "/ssrV29QSVVJuemBHho0Qx7pFYak.jpg",
+      "release_date": "1992-12-10",
+      "title": "The Muppet Christmas Carol",
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 743
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 335360,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/t9QTd0V3rbv6W25QbHJuC6zbIo1.jpg",
+      "genre_ids": [
+        10751,
+        16,
+        10402,
+        12,
+        14
+      ],
+      "id": 335360,
+      "original_language": "en",
+      "original_title": "My Little Pony: The Movie",
+      "overview": "A new dark force threatens Ponyville, and the Mane 6 \u2013 Twilight Sparkle, Applejack, Rainbow Dash, Pinkie Pie, Fluttershy and Rarity \u2013 embark on an unforgettable journey beyond Equestria where they meet new friends and exciting challenges on a quest to use the magic of friendship and save their home.",
+      "popularity": 19.014,
+      "poster_path": "/8FAkwIBnd5eGlSJBrJfJVMWAbhI.jpg",
+      "release_date": "2017-10-05",
+      "title": "My Little Pony: The Movie",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 319
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 64328,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/60PR4UC3D20dycVAoWadUzFio5R.jpg",
+      "genre_ids": [
+        35,
+        10402
+      ],
+      "id": 64328,
+      "original_language": "en",
+      "original_title": "The Muppets",
+      "overview": "When Kermit the Frog and the Muppets learn that their beloved theater is slated for demolition, a sympathetic human, Gary, and his puppet brother, Walter, swoop in to help the gang put on a show and raise the $10 million they need to save the day.",
+      "popularity": 18.952,
+      "poster_path": "/rsNbxonO8gtylIXwiv7JeqwJ4Kb.jpg",
+      "release_date": "2011-11-22",
+      "title": "The Muppets",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 1337
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 740996,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/dKtkvL8tScUlh67vig2Ama74Jz1.jpg",
+      "genre_ids": [
+        99,
+        10402
+      ],
+      "id": 740996,
+      "original_language": "ko",
+      "original_title": "\ube14\ub799\ud551\ud06c: \uc138\uc0c1\uc744 \ubc1d\ud600\ub77c",
+      "overview": "Record-shattering Korean girl band BLACKPINK tell their story \u2014  and detail the hard fought journey of the dreams and trials behind their meteoric rise.",
+      "popularity": 18.768,
+      "poster_path": "/wwrvjmcgkDyB2RbCbIVLXZf82pl.jpg",
+      "release_date": "2020-10-14",
+      "title": "BLACKPINK: Light Up the Sky",
+      "video": false,
+      "vote_average": 8.3,
+      "vote_count": 440
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 554594,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/dYghS9G00IbI3dEPHWcCm8YuviH.jpg",
+      "genre_ids": [
+        10402,
+        16
+      ],
+      "id": 554594,
+      "original_language": "en",
+      "original_title": "Koati",
+      "overview": "Three unlikely heroes - Nachi, a free-spirited coati; Xochi, a fearless monarch butterfly and Pako, a hyperactive glass frog - embark on an adventure to stop wicked coral snake Zaina from destroying their rain forest homeland.",
+      "popularity": 18.768,
+      "poster_path": "/AbJiqVPGuPZ4RWNkT8tPnlEKe6g.jpg",
+      "release_date": "2021-10-22",
+      "title": "Koati",
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 73
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 786,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/AqLtFRKVX2G0ghMnMnQoSGan4pY.jpg",
+      "genre_ids": [
+        18,
+        10402
+      ],
+      "id": 786,
+      "original_language": "en",
+      "original_title": "Almost Famous",
+      "overview": "In 1973, 15-year-old William Miller's unabashed love of music and aspiration to become a rock journalist lands him an assignment from Rolling Stone magazine to interview and tour with the up-and-coming band, Stillwater.",
+      "popularity": 18.449,
+      "poster_path": "/3rrkyLYbgLj84AYvjhdcJot4JPx.jpg",
+      "release_date": "2000-09-15",
+      "title": "Almost Famous",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 2262
+    }
+  }
+]

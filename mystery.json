@@ -1,0 +1,489 @@
+[
+  {
+    "model": "movies.movie",
+    "pk": 916821,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/3RQccmgJDybIdLivf4aNCJj5fVO.jpg",
+      "genre_ids": [
+        28,
+        53,
+        80,
+        9648
+      ],
+      "id": 916821,
+      "original_language": "en",
+      "original_title": "Gasoline Alley",
+      "overview": "A man implicated in the triple homicide of three Hollywood starlets begins his own investigation. Needing assistance, he enlists the two detectives on his tail in order to expose a conspiracy more explosive than any of them imagined.",
+      "popularity": 46.183,
+      "poster_path": "/ews3l3v7JYLtBS5ansZrXsXLMzl.jpg",
+      "release_date": "2022-02-25",
+      "title": "Gasoline Alley",
+      "video": false,
+      "vote_average": 5.4,
+      "vote_count": 84
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 4552,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/tM7uHa2Km5gSakooTQsZLwit3PK.jpg",
+      "genre_ids": [
+        18,
+        27,
+        9648
+      ],
+      "id": 4552,
+      "original_language": "ko",
+      "original_title": "\uc7a5\ud654, \ud64d\ub828",
+      "overview": "A recently released patient from a mental institution returns home with her sister, only to face disturbing events between her stepmother and the ghosts haunting their house- all of which are connected to a dark past in the family's history.",
+      "popularity": 45.908,
+      "poster_path": "/l3exwhwyGE0NnHJ3lFQ7eXoBSkH.jpg",
+      "release_date": "2003-06-13",
+      "title": "A Tale of Two Sisters",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 933
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 839436,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/5PQhNs4M3RxIqaNAdBI6mXlXyYh.jpg",
+      "genre_ids": [
+        27,
+        14,
+        9648
+      ],
+      "id": 839436,
+      "original_language": "en",
+      "original_title": "Dragon Fury",
+      "overview": "A group of soldiers are taken to the mountains of Wales to investigate a strange looking monster.",
+      "popularity": 44.283,
+      "poster_path": "/6WcJ4cV2Y3gnTYp5zHu968TYmTJ.jpg",
+      "release_date": "2021-06-15",
+      "title": "Dragon Fury",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 39
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 7485,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/c4eAnXgvCHisvfa7wqnxjGMDnJq.jpg",
+      "genre_ids": [
+        28,
+        18,
+        9648,
+        53,
+        80
+      ],
+      "id": 7485,
+      "original_language": "en",
+      "original_title": "Shooter",
+      "overview": "A marksman living in exile is coaxed back into action after learning of a plot to kill the president. Ultimately double-crossed and framed for the attempt, he goes on the run to track the real killer and find out who exactly set him up, and why??",
+      "popularity": 44.238,
+      "poster_path": "/tyRP8JedrDkPPvH3JxKYsdP2esu.jpg",
+      "release_date": "2007-03-22",
+      "title": "Shooter",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 4041
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 4232,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/4PPC7fKClu0u7NTbo5xgV4vb5VD.jpg",
+      "genre_ids": [
+        80,
+        27,
+        9648
+      ],
+      "id": 4232,
+      "original_language": "en",
+      "original_title": "Scream",
+      "overview": "A killer known as Ghostface begins killing off teenagers, and as the body count begins rising, one girl and her friends find themselves contemplating the 'rules' of horror films as they try to survive a real-life one.",
+      "popularity": 43.941,
+      "poster_path": "/3O3klyyYpAZBBE4n7IngzTomRDp.jpg",
+      "release_date": "1996-12-20",
+      "title": "Scream",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 5444
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 329865,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/pM7CmKdtkOb9N0kK9XJZAft8Zuv.jpg",
+      "genre_ids": [
+        18,
+        878,
+        9648
+      ],
+      "id": 329865,
+      "original_language": "en",
+      "original_title": "Arrival",
+      "overview": "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
+      "popularity": 43.56,
+      "poster_path": "/x2FJsf1ElAgr63Y3PNPtJrcmpoe.jpg",
+      "release_date": "2016-11-10",
+      "title": "Arrival",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 15644
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 602734,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/g15PR8eQV9DehSWlagvdnJZqoRq.jpg",
+      "genre_ids": [
+        27,
+        80,
+        9648
+      ],
+      "id": 602734,
+      "original_language": "en",
+      "original_title": "Spiral: From the Book of Saw",
+      "overview": "Working in the shadow of an esteemed police veteran, brash Detective Ezekiel \u201cZeke\u201d Banks and his rookie partner take charge of a grisly investigation into murders that are eerily reminiscent of the city\u2019s gruesome past.  Unwittingly entrapped in a deepening mystery, Zeke finds himself at the center of the killer\u2019s morbid game.",
+      "popularity": 42.934,
+      "poster_path": "/qkl6mRoFexK2FGWCbAsvrRxjWaF.jpg",
+      "release_date": "2021-05-12",
+      "title": "Spiral: From the Book of Saw",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 1410
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 591273,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/5C8bfwglg91uZhc2fbfpSjNGamV.jpg",
+      "genre_ids": [
+        9648,
+        27,
+        14
+      ],
+      "id": 591273,
+      "original_language": "en",
+      "original_title": "Fear Street: 1994",
+      "overview": "After a series of brutal slayings, a teen and her friends take on an evil force that's plagued their notorious town for centuries.",
+      "popularity": 42.66,
+      "poster_path": "/9J9Wy39ZjrVmfk7yMkulpcI5sy0.jpg",
+      "release_date": "2021-06-28",
+      "title": "Fear Street: 1994",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 1770
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 521029,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/dBt0DoFfbhOI4ypUfRj1uTq623M.jpg",
+      "genre_ids": [
+        27,
+        9648,
+        53
+      ],
+      "id": 521029,
+      "original_language": "en",
+      "original_title": "Annabelle Comes Home",
+      "overview": "Determined to keep Annabelle from wreaking more havoc, demonologists Ed and Lorraine Warren bring the possessed doll to the locked artifacts room in their home, placing her \u201csafely\u201d behind sacred glass and enlisting a priest\u2019s holy blessing. But an unholy night of horror awaits as Annabelle awakens the evil spirits in the room, who all set their sights on a new target\u2014the Warrens' ten-year-old daughter, Judy, and her friends.",
+      "popularity": 41.691,
+      "poster_path": "/qWsHMrbg9DsBY3bCMk9jyYCRVRs.jpg",
+      "release_date": "2019-06-26",
+      "title": "Annabelle Comes Home",
+      "video": false,
+      "vote_average": 6.4,
+      "vote_count": 2917
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 249397,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/5n417Ff5GXOGCOKj3ZLMRAxEP0o.jpg",
+      "genre_ids": [
+        18,
+        9648
+      ],
+      "id": 249397,
+      "original_language": "en",
+      "original_title": "Nymphomaniac: Vol. II",
+      "overview": "The continuation of Joe's sexually dictated life delves into the darker aspects of her adult life and what led to her being in Seligman's care.",
+      "popularity": 41.675,
+      "poster_path": "/fYLbO4UpumgNHVnsyDQkXG87Q1k.jpg",
+      "release_date": "2013-12-25",
+      "title": "Nymphomaniac: Vol. II",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 2527
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 534338,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/vwsr9XcUgnzuMkrvVBTfyTRmfDw.jpg",
+      "genre_ids": [
+        18,
+        9648
+      ],
+      "id": 534338,
+      "original_language": "en",
+      "original_title": "An Interview with God",
+      "overview": "An up-and-coming journalist finds his world and faith increasingly challenged when he's granted the interview of a lifetime \u2013 with someone who claims to be God.",
+      "popularity": 40.983,
+      "poster_path": "/d9TeB8VLCgwSph2OSYK3lcHGf1f.jpg",
+      "release_date": "2018-08-20",
+      "title": "An Interview with God",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 213
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 13448,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/cj0VkGBTywa7WTIPPW9xgqmUVWl.jpg",
+      "genre_ids": [
+        53,
+        9648
+      ],
+      "id": 13448,
+      "original_language": "en",
+      "original_title": "Angels & Demons",
+      "overview": "Harvard symbologist Robert Langdon is recruited by the Vatican to investigate the apparent return of the Illuminati - a secret, underground organization - after four cardinals are kidnapped on the night of the papal conclave.",
+      "popularity": 40.782,
+      "poster_path": "/uRBapeuwV8yy4in4BkETHBDmWkH.jpg",
+      "release_date": "2009-05-13",
+      "title": "Angels & Demons",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 6024
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 897424,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/qhRQLTYnGWvI4nYE05DaDjgvCna.jpg",
+      "genre_ids": [
+        878,
+        27,
+        9648,
+        53
+      ],
+      "id": 897424,
+      "original_language": "en",
+      "original_title": "Dark Cloud",
+      "overview": "Following the aftermath of a horrific accident, a woman is voluntarily subjected to artificial intelligence for rehabilitation.",
+      "popularity": 40.645,
+      "poster_path": "/q1ngkvPCnOYKeyNZjg8QqvaSnuZ.jpg",
+      "release_date": "2022-05-09",
+      "title": "Dark Cloud",
+      "video": false,
+      "vote_average": 6.4,
+      "vote_count": 66
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 270303,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/keEWjA5ykLJo851tIBFdmkxPxxh.jpg",
+      "genre_ids": [
+        27,
+        9648
+      ],
+      "id": 270303,
+      "original_language": "en",
+      "original_title": "It Follows",
+      "overview": "When carefree teenager Jay sleeps with her older boyfriend for the first time, she learns that she is the latest recipient of a fatal curse that is passed from victim to victim via sexual intercourse. Death, Jay learns, will creep inexorably toward her as either a friend or a stranger. Jay's friends don't believe her seemingly paranoid ravings, until they too begin to see the phantom assassins and band together to help her defend herself.",
+      "popularity": 40.514,
+      "poster_path": "/iwnQ1JH1wdWrGYkgWySptJ5284A.jpg",
+      "release_date": "2014-09-24",
+      "title": "It Follows",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 5532
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 915831,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/8Gw0b8UTfcLe7cytefrBzsStW7J.jpg",
+      "genre_ids": [
+        80,
+        35,
+        18,
+        9648
+      ],
+      "id": 915831,
+      "original_language": "hi",
+      "original_title": "\u092e\u094b\u0928\u093f\u0915\u093e, \u0913 \u092e\u093e\u092f \u0921\u093e\u0930\u094d\u0932\u093f\u0902\u0917",
+      "overview": "A slick robotics expert joins a murderous plot after a passionate affair takes a sudden turn, but nothing \u2014 not even death \u2014 is what it seems to be.",
+      "popularity": 40.252,
+      "poster_path": "/xEksr0T34utTkeg0DB1Au4M0jto.jpg",
+      "release_date": "2022-11-11",
+      "title": "Monica, O My Darling",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 17
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 505026,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/lRbDyjI7HEaXxflFQbYpqHRGFBJ.jpg",
+      "genre_ids": [
+        9648,
+        18,
+        80,
+        53,
+        28,
+        12
+      ],
+      "id": 505026,
+      "original_language": "en",
+      "original_title": "Death on the Nile",
+      "overview": "Belgian sleuth Hercule Poirot boards a glamorous river steamer with enough champagne to fill the Nile. But his Egyptian vacation turns into a thrilling search for a murderer when a picture-perfect couple\u2019s idyllic honeymoon is tragically cut short.",
+      "popularity": 40.002,
+      "poster_path": "/kVr5zIAFSPRQ57Y1zE7KzmhzdMQ.jpg",
+      "release_date": "2022-02-09",
+      "title": "Death on the Nile",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 2403
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 11679,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/vBDHS8bdo5vzqaaqviMupznoRaN.jpg",
+      "genre_ids": [
+        28,
+        12,
+        80,
+        9648,
+        53
+      ],
+      "id": 11679,
+      "original_language": "en",
+      "original_title": "xXx: State of the Union",
+      "overview": "Darius Stone's criminal record and extreme sports obsession make him the perfect candidate to be the newest XXX agent. He must save the U.S. government from a deadly conspiracy led by five-star general and Secretary of Defense George Deckert.",
+      "popularity": 39.969,
+      "poster_path": "/MM1r8HQUn6VG0Njr8S6cmXHyvJ.jpg",
+      "release_date": "2005-04-27",
+      "title": "xXx: State of the Union",
+      "video": false,
+      "vote_average": 5,
+      "vote_count": 1570
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 619979,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/2pmQSmZAci3v37cVv3nOs48ZPEq.jpg",
+      "genre_ids": [
+        18,
+        9648,
+        53
+      ],
+      "id": 619979,
+      "original_language": "en",
+      "original_title": "Deep Water",
+      "overview": "Vic and Melinda Van Allen are a couple in the small town of Little Wesley. Their loveless marriage is held together only by a precarious arrangement whereby, in order to avoid the messiness of divorce, Melinda is allowed to take any number of lovers as long as she does not desert her family.",
+      "popularity": 39.92,
+      "poster_path": "/6yRMyWwjuhKg6IU66uiZIGhaSc8.jpg",
+      "release_date": "2022-03-18",
+      "title": "Deep Water",
+      "video": false,
+      "vote_average": 5.7,
+      "vote_count": 882
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 63,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/2aPrheKAOwyjJqu6YYd2TvsKv9a.jpg",
+      "genre_ids": [
+        878,
+        53,
+        9648
+      ],
+      "id": 63,
+      "original_language": "en",
+      "original_title": "Twelve Monkeys",
+      "overview": "In the year 2035, convict James Cole reluctantly volunteers to be sent back in time to discover the origin of a deadly virus that wiped out nearly all of the earth's population and forced the survivors into underground communities. But when Cole is mistakenly sent to 1990 instead of 1996, he's arrested and locked up in a mental hospital. There he meets psychiatrist Dr. Kathryn Railly, and patient Jeffrey Goines, the son of a famous virus expert, who may hold the key to the mysterious rogue group, the Army of the 12 Monkeys, thought to be responsible for unleashing the killer disease.",
+      "popularity": 39.584,
+      "poster_path": "/gt3iyguaCIw8DpQZI1LIN5TohM2.jpg",
+      "release_date": "1995-12-29",
+      "title": "Twelve Monkeys",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 7177
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 762433,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/wnn2Zf1ZuCgcCVaoNdp20OI2uTs.jpg",
+      "genre_ids": [
+        10752,
+        53,
+        18,
+        9648
+      ],
+      "id": 762433,
+      "original_language": "en",
+      "original_title": "Zeros and Ones",
+      "overview": "Called to Rome to stop an imminent terrorist bombing, a soldier desperately seeks news of his imprisoned brother \u2014 a rebel with knowledge that could thwart the attack. Navigating the capital's darkened streets, he races to a series of ominous encounters to keep the Vatican from being blown to bits.",
+      "popularity": 39.215,
+      "poster_path": "/a6balsDWCFMHPaPT6rFoBpNjR6z.jpg",
+      "release_date": "2021-11-18",
+      "title": "Zeros and Ones",
+      "video": false,
+      "vote_average": 5,
+      "vote_count": 176
+    }
+  }
+]

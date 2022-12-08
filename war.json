@@ -1,0 +1,488 @@
+[
+  {
+    "model": "movies.movie",
+    "pk": 11658,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/dx3c5kdZUNDZujNv2XvHrqR3kMN.jpg",
+      "genre_ids": [
+        28,
+        12,
+        18,
+        36,
+        10752
+      ],
+      "id": 11658,
+      "original_language": "ko",
+      "original_title": "\ud0dc\uadf9\uae30 \ud718\ub0a0\ub9ac\uba70",
+      "overview": "When two brothers are forced to fight in the Korean War, the elder decides to take the riskiest missions if it will help shield the younger from battle.",
+      "popularity": 22.436,
+      "poster_path": "/vyG8qpimh3XSlxc6OmPq8LJRJl.jpg",
+      "release_date": "2004-02-05",
+      "title": "Tae Guk Gi: The Brotherhood of War",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 560
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 205,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/ljEdpkceJ9b3TEcTVQISS0Goft0.jpg",
+      "genre_ids": [
+        18,
+        36,
+        10752
+      ],
+      "id": 205,
+      "original_language": "en",
+      "original_title": "Hotel Rwanda",
+      "overview": "Inspired by true events, this film takes place in Rwanda in the 1990s when more than a million Tutsis were killed in a genocide that went mostly unnoticed by the rest of the world. Hotel owner Paul Rusesabagina houses over a thousand refuges in his hotel in attempt to save their lives.",
+      "popularity": 22.11,
+      "poster_path": "/p3pHw85UMZPegfMZBA6dZ06yarm.jpg",
+      "release_date": "2004-03-04",
+      "title": "Hotel Rwanda",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 2414
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 193756,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/hmEbQB5UlcwobldcSDNlLZiUnmA.jpg",
+      "genre_ids": [
+        10752,
+        28,
+        18,
+        36
+      ],
+      "id": 193756,
+      "original_language": "en",
+      "original_title": "Lone Survivor",
+      "overview": "Four Navy SEALs on a covert mission to neutralize a high-level Taliban operative must make an impossible moral decision in the mountains of Afghanistan that leads them into an enemy ambush. As they confront unthinkable odds, the SEALs must find reserves of strength and resilience to fight to the finish.",
+      "popularity": 21.935,
+      "poster_path": "/zaBIrloyhGK7iNTZMb3f9SARsl8.jpg",
+      "release_date": "2013-12-24",
+      "title": "Lone Survivor",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 3658
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1880,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/9fOfsVHZHig6MHPHczv0zMY6cKc.jpg",
+      "genre_ids": [
+        28,
+        53,
+        10752,
+        18
+      ],
+      "id": 1880,
+      "original_language": "en",
+      "original_title": "Red Dawn",
+      "overview": "It is the dawn of World War III. In mid-western America, a group of teenagers band together to defend their town\u2014and their country\u2014from invading Soviet forces.",
+      "popularity": 21.707,
+      "poster_path": "/a2GkHcioc2QEFJbQk1NTB85u3vD.jpg",
+      "release_date": "1984-08-10",
+      "title": "Red Dawn",
+      "video": false,
+      "vote_average": 6.3,
+      "vote_count": 612
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 143,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/hSRb0YhB4TaeIKgZtQbFuY3l0XM.jpg",
+      "genre_ids": [
+        18,
+        10752
+      ],
+      "id": 143,
+      "original_language": "en",
+      "original_title": "All Quiet on the Western Front",
+      "overview": "A young soldier faces profound disillusionment in the soul-destroying horror of World War I. Together with several other young German soldiers, he experiences the horrors of war, such evil of which he had not conceived of when signing up to fight. They eventually become sad, tormented, and confused of their purpose.",
+      "popularity": 21.617,
+      "poster_path": "/yAU6jklJLUjZot3WyvyJrxVdLKb.jpg",
+      "release_date": "1930-04-29",
+      "title": "All Quiet on the Western Front",
+      "video": false,
+      "vote_average": 7.8,
+      "vote_count": 599
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 9595,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/uwLI17reYWprmtp6yDCVD8QdNqw.jpg",
+      "genre_ids": [
+        28,
+        35,
+        10752
+      ],
+      "id": 9595,
+      "original_language": "en",
+      "original_title": "Hot Shots!",
+      "overview": "The gang that created Airplane and The Naked Gun sets its sights on Top Gun in this often hilarious spoof starring Charlie Sheen, who previously only inspired laughs with his personal life. He plays Topper Harley, a fighter pilot with an ax to grind: clearing the family name. He gets involved in a relationship with Valerie Golino, a woman with an unusually talented stomach. But his mission is to avenge his father. Lloyd Bridges, late in his career, revealed an aptitude for this kind of silliness, here as a commander who is both incredibly dim and delightfully accident prone. Directed by Jim Abrahams, the film makes fun of a variety of other films as well, from Dances with Wolves to The Fabulous Baker Boys. It was so successful that they all returned in the sequel, Hot Shots! Part Deux.",
+      "popularity": 21.576,
+      "poster_path": "/hoPS7RSvdZhZhWf28OfP2IZ0cb3.jpg",
+      "release_date": "1991-07-31",
+      "title": "Hot Shots!",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 1776
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 25,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/bQ8fRUaitJvi54O2lUT6Ta7FVHK.jpg",
+      "genre_ids": [
+        18,
+        10752
+      ],
+      "id": 25,
+      "original_language": "en",
+      "original_title": "Jarhead",
+      "overview": "Jarhead is a film about a US Marine Anthony Swofford\u2019s experience in the Gulf War. After putting up with an arduous boot camp, Swofford and his unit are sent to the Persian Gulf where they are eager to fight, but are forced to stay back from the action. Swofford struggles with the possibility of his girlfriend cheating on him, and as his mental state deteriorates, his desire to kill increases.",
+      "popularity": 21.56,
+      "poster_path": "/55WJCdayHwoXJwRv3prpqscHt2q.jpg",
+      "release_date": "2005-11-04",
+      "title": "Jarhead",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 2412
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1966,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/ySK5gxvXYnn55fjCIBeJVsG17RJ.jpg",
+      "genre_ids": [
+        10752,
+        36,
+        28,
+        12,
+        18,
+        10749
+      ],
+      "id": 1966,
+      "original_language": "en",
+      "original_title": "Alexander",
+      "overview": "Alexander, the King of Macedonia, leads his legions against the giant Persian Empire. After defeating the Persians, he leads his army across the then known world, venturing farther than any westerner had ever gone, all the way to India.",
+      "popularity": 21.498,
+      "poster_path": "/jrwQu72sGwGqwE8Ijne89PSIvhp.jpg",
+      "release_date": "2004-11-21",
+      "title": "Alexander",
+      "video": false,
+      "vote_average": 5.9,
+      "vote_count": 2860
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 635744,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/kTtBDUeDZATzrTUlqHUG0ZWjg9m.jpg",
+      "genre_ids": [
+        10752
+      ],
+      "id": 635744,
+      "original_language": "en",
+      "original_title": "Jarhead: Law of Return",
+      "overview": "Major Ronan Jackson, an accomplished fighter pilot for the Israel Defense Forces and son of a U.S. Senator, is shot down while flying through Syrian airspace. After miraculously surviving the crash, Jackson is taken captive by a group of Hezbollah militiamen. A squad of elite soldiers, led by Gunnery Sergeant Dave Torres, risk their own lives in the hopes of saving an ally they've never met.",
+      "popularity": 21.449,
+      "poster_path": "/6LlqyjAik3Kh68QQ9AchSJEF0Z5.jpg",
+      "release_date": "2019-10-01",
+      "title": "Jarhead: Law of Return",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 2995
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 489245,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/5qef4Gl8hJcXvVLE0rsXSgEIbOj.jpg",
+      "genre_ids": [
+        10752,
+        28,
+        18
+      ],
+      "id": 489245,
+      "original_language": "en",
+      "original_title": "The Kill Team",
+      "overview": "When Andrew Briggman\u2014a young soldier in the US invasion of Afghanistan\u2014witnesses other recruits killing innocent civilians under the direction of a sadistic Sergeant, he considers reporting them to higher-ups. However, the heavily-armed and increasingly-violent platoon becomes suspicious that someone in their ranks has turned on them, and Andrew begins to fear that he'll be the next target.",
+      "popularity": 21.403,
+      "poster_path": "/wLRZbtrbV51oQuvqNeK6vhb6btV.jpg",
+      "release_date": "2019-10-17",
+      "title": "The Kill Team",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 324
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 10047,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/iW2ZLRkKJvFuI6ZkSchk5f8kCPc.jpg",
+      "genre_ids": [
+        12,
+        18,
+        28,
+        36,
+        10752
+      ],
+      "id": 10047,
+      "original_language": "en",
+      "original_title": "Joan of Arc",
+      "overview": "In 1429 a teenage girl from a remote French village stood before her King with a message she claimed came from God; that she would defeat the world's greatest army and liberate her country from its political and religious turmoil. Following her mission to reclaim god's diminished kingdom - through her amazing victories until her violent and untimely death.",
+      "popularity": 21.319,
+      "poster_path": "/bR16gmwgnCD5e5UWPZHc1BsOsV0.jpg",
+      "release_date": "1999-10-27",
+      "title": "The Messenger: The Story of Joan of Arc",
+      "video": false,
+      "vote_average": 6.4,
+      "vote_count": 1217
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 531876,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/n1RohH2VoK1CdVI2fXvcP19dSlm.jpg",
+      "genre_ids": [
+        10752,
+        18,
+        36,
+        28
+      ],
+      "id": 531876,
+      "original_language": "en",
+      "original_title": "The Outpost",
+      "overview": "A small unit of U.S. soldiers, alone at the remote Combat Outpost Keating, located deep in the valley of three mountains in Afghanistan, battles to defend against an overwhelming force of Taliban fighters in a coordinated attack. The Battle of Kamdesh, as it was known, was the bloodiest American engagement of the Afghan War in 2009 and Bravo Troop 3-61 CAV became one of the most decorated units of the 19-year conflict.",
+      "popularity": 21.111,
+      "poster_path": "/hPkqY2EMqWUnFEoedukilIUieVG.jpg",
+      "release_date": "2020-06-24",
+      "title": "The Outpost",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 832
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 399178,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/bmykZnlcRWimlgYub5NOp1dPcwA.jpg",
+      "genre_ids": [
+        18,
+        36,
+        10752
+      ],
+      "id": 399178,
+      "original_language": "en",
+      "original_title": "Benediction",
+      "overview": "Poet Siegfried Sassoon survived the horrors of fighting in the First World War and was decorated for his bravery, but became a vocal critic of the government's continuation of the war when he returned from service. Adored by members of the aristocracy as well as stars of London's literary and stage world, he embarked on affairs with several men as he attempted to come to terms with his homosexuality.",
+      "popularity": 21.108,
+      "poster_path": "/85NUEtt7qzag9dgOov4spHY9RtL.jpg",
+      "release_date": "2022-05-13",
+      "title": "Benediction",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 27
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 8290,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/aPteaXAPp9RwdoecjMgkGKxpkMA.jpg",
+      "genre_ids": [
+        35,
+        10752
+      ],
+      "id": 8290,
+      "original_language": "fr",
+      "original_title": "La Grande Vadrouille",
+      "overview": "During World War II, two French civilians and a downed British Bomber Crew set out from Paris to cross the demarcation line between Nazi-occupied Northern France and the South. From there they will be able to escape to England. First, they must avoid German troops - and the consequences of their own blunders.",
+      "popularity": 20.856,
+      "poster_path": "/91l4Sf3WJwrb0tSVPsOqnBXG8E6.jpg",
+      "release_date": "1966-12-08",
+      "title": "Don't Look Now... We're Being Shot At!",
+      "video": false,
+      "vote_average": 7.9,
+      "vote_count": 1098
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 607844,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/31wP2W7IYOtu0EprZF1Ja3qZrrl.jpg",
+      "genre_ids": [
+        10752,
+        28,
+        53,
+        18
+      ],
+      "id": 607844,
+      "original_language": "ko",
+      "original_title": "\ubaa8\uac00\ub514\uc288",
+      "overview": "Diplomats from the North and South Korean embassies in Somalia attempt a daring joint escape from Mogadishu when the outbreak of civil war leaves them stranded.",
+      "popularity": 20.746,
+      "poster_path": "/grFDK4ddh2IMn464Ve4ke4uz2ao.jpg",
+      "release_date": "2021-07-28",
+      "title": "Escape from Mogadishu",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 97
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 378385,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/sr55z05MvFdCooDif7xbjmwJUU3.jpg",
+      "genre_ids": [
+        10752,
+        28,
+        18
+      ],
+      "id": 378385,
+      "original_language": "en",
+      "original_title": "Jarhead 3: The Siege",
+      "overview": "Corporal Evan Albright joined the elite Marine Corps Security Guards to save the world and see some action-not necessarily in that order. But his first assignment, protecting a U. S. Embassy in a seemingly safe Middle Eastern capitol, relegates his unit to wrangling \"gate groupies\" protesting outside the compound and honing their marksmanship by playing video games. So Albright and his team are caught off guard when well-armed and well-trained militants launch a surprise attack aimed at killing an informant in the embassy. Heavily out-gunned, they will have to muster all the courage and fire power they can as their once routine assignment spirals into all-out war.",
+      "popularity": 20.547,
+      "poster_path": "/namZEDSMbFOSI3sMjzeSJ4E176o.jpg",
+      "release_date": "2016-01-20",
+      "title": "Jarhead 3: The Siege",
+      "video": false,
+      "vote_average": 6.3,
+      "vote_count": 197
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 9255,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/kBqxCAFpLmVxYQLwCKmmXVDtfyh.jpg",
+      "genre_ids": [
+        28,
+        35,
+        10752
+      ],
+      "id": 9255,
+      "original_language": "en",
+      "original_title": "Hot Shots! Part Deux",
+      "overview": "Topper Harley is found to be working as an odd-job-man in a monastery. The CIA want him to lead a rescue mission into Iraq, to rescue the last rescue team, who went in to rescue the last rescue team\u2014who went in to rescue hostages left behind after Desert Storm.",
+      "popularity": 20.528,
+      "poster_path": "/zh9EGK970GHo10ETclWBOjZVUOK.jpg",
+      "release_date": "1993-05-21",
+      "title": "Hot Shots! Part Deux",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 1541
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 856437,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/u0fPJzYRbgPFfGY4TOsZUzyqSQv.jpg",
+      "genre_ids": [
+        18,
+        36,
+        10752
+      ],
+      "id": 856437,
+      "original_language": "ar",
+      "original_title": "Farha",
+      "overview": "Palestine, 1948. After the withdrawal of the British occupiers, tensions rise between Arabs and Jews. Meanwhile, Farha, the smart daughter of the mayor of a small village, unaware of the coming tragedy, dreams of going to study in the big city.",
+      "popularity": 20.43,
+      "poster_path": "/X4kRsdyP9FgMfKKn9LZiVscZY5.jpg",
+      "release_date": "2022-10-21",
+      "title": "Farha",
+      "video": false,
+      "vote_average": 8.9,
+      "vote_count": 10
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 8738,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/jATKBxUklNRhqiyLM4FYXr6D1Jn.jpg",
+      "genre_ids": [
+        10752,
+        28,
+        878
+      ],
+      "id": 8738,
+      "original_language": "en",
+      "original_title": "The Final Countdown",
+      "overview": "During routine manoeuvres near Hawaii in 1980, the aircraft-carrier USS Nimitz is caught in a strange vortex-like storm, throwing the ship back in time to 1941\u2014mere hours before the Japanese attack on Pearl Harbor.",
+      "popularity": 20.427,
+      "poster_path": "/5030ETN6IBCjRMmZVCTGhujO5Q6.jpg",
+      "release_date": "1980-01-31",
+      "title": "The Final Countdown",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 472
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 504949,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/urwWVsciRiNSmhtMJcck0noWAXr.jpg",
+      "genre_ids": [
+        18,
+        36,
+        10752
+      ],
+      "id": 504949,
+      "original_language": "en",
+      "original_title": "The King",
+      "overview": "England, 15th century. Hal, a capricious prince who lives among the populace far from court, is forced by circumstances to reluctantly accept the throne and become Henry V.",
+      "popularity": 20.189,
+      "poster_path": "/8u0QBGUbZcBW59VEAdmeFl9g98N.jpg",
+      "release_date": "2019-10-11",
+      "title": "The King",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 2697
+    }
+  }
+]
