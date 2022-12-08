@@ -1,5 +1,7 @@
 from .models import Movie
 from .serializers.common import MovieSerializer
+from .serializers.populated import PopulatedMovieSerializer
+
 
 
 # APIView usa standard HTTP methods for function: GET, POST, PUT, DELETE
@@ -45,5 +47,5 @@ class MovieDetailView(APIView):
     # ****** GET SINGLE MOVIE *****
     def get(self, _request, pk):
         movie = self.get_movie(pk) # uso la funzione creata sopra, per usarla -> self (che é tipo this.qualcosa)
-        serialized_movie = MovieSerializer(movie) # ritorna un single object back, dobbiamo serialize it (we don't need many = True)
+        serialized_movie = PopulatedMovieSerializer(movie) # ritorna un single object back, dobbiamo serialize it (we don't need many = True)
         return Response(serialized_movie.data) # send back serialized data
