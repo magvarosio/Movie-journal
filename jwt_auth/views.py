@@ -25,3 +25,10 @@ class RegisterView(APIView):
         except Exception as e:
             print(e)
             return Response(str(e), status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+class LoginView(APIView):
+  
+    def post(self, request):
+        print('DATAAA -> ', request.data)
+        return Response(' **** LOGIN ROUTE ****')
