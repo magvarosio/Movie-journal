@@ -1,483 +1,6 @@
 [
   {
     "model": "movies.movie",
-    "pk": 488113,
-    "fields": {
-      "adult": false,
-      "backdrop_path": "/2jB7zzzvBxFCdEPOWKLP4yakPGp.jpg",
-      "genre_ids": [
-        10749,
-        10751,
-        10770
-      ],
-      "id": 488113,
-      "original_language": "en",
-      "original_title": "Christmas Wedding Planner",
-      "overview": "Wedding Planner, Kelsey Wilson, is about to have her big break: planning her beloved cousin's lavish and exclusive wedding. Everything is going smoothly until Connor McClane, a devilishly handsome private investigator, shows up and turns Kelsey's world upside-down. Hired by a secret source, Connor quickly disrupts the upcoming nuptials but wins Kelsey's heart in the process.",
-      "popularity": 18.801,
-      "poster_path": "/6AvDenAws6MmF4Y6ZahRINYLbud.jpg",
-      "release_date": "2017-12-14",
-      "title": "Christmas Wedding Planner",
-      "video": false,
-      "vote_average": 5.5,
-      "vote_count": 384
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 480157,
-    "fields": {
-      "adult": false,
-      "backdrop_path": "/3Z8TQeeB4wC5zEXw4XugyO0upLV.jpg",
-      "genre_ids": [
-        27,
-        10770
-      ],
-      "id": 480157,
-      "original_language": "en",
-      "original_title": "House of the Witch",
-      "overview": "A group of high-school kids set out to play a Halloween prank at an abandoned house, but once they enter they become victims of a demonic witch who has set her wrath upon them.",
-      "popularity": 18.682,
-      "poster_path": "/cg6xjZOnGsYYqC7SH3o8oJV9Vr1.jpg",
-      "release_date": "2017-10-07",
-      "title": "House of the Witch",
-      "video": false,
-      "vote_average": 4.7,
-      "vote_count": 122
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 971511,
-    "fields": {
-      "adult": false,
-      "backdrop_path": "/26Y2zD0tf5asltaofcpXU1fa268.jpg",
-      "genre_ids": [
-        10770,
-        35,
-        10749,
-        14
-      ],
-      "id": 971511,
-      "original_language": "en",
-      "original_title": "Must Love Christmas",
-      "overview": "A renowned romance novelist famous becomes involved in a love triangle between her childhood crush and a reporter.",
-      "popularity": 18.416,
-      "poster_path": "/3V8TidkaA0dK9wL13C7l9PXxhP6.jpg",
-      "release_date": "2022-12-11",
-      "title": "Must Love Christmas",
-      "video": false,
-      "vote_average": 0,
-      "vote_count": 0
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 16237,
-    "fields": {
-      "adult": false,
-      "backdrop_path": "/aLnB8TBzELe4Nfc3oKrAmSFMupT.jpg",
-      "genre_ids": [
-        28,
-        16,
-        10751,
-        878,
-        10770
-      ],
-      "id": 16237,
-      "original_language": "en",
-      "original_title": "Teen Titans: Trouble in Tokyo",
-      "overview": "America's coolest heroes, the Teen Titans, go to Tokyo to track down the mysterious Japanese criminal Brushogun.",
-      "popularity": 18.29,
-      "poster_path": "/uUIczHTpnBDC6Mbp0dFGDZldcc1.jpg",
-      "release_date": "2006-09-15",
-      "title": "Teen Titans: Trouble in Tokyo",
-      "video": false,
-      "vote_average": 7.8,
-      "vote_count": 292
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 537061,
-    "fields": {
-      "adult": false,
-      "backdrop_path": "/rPzWW9rBTCjSxJz48zI5F6SUIbY.jpg",
-      "genre_ids": [
-        16,
-        10751,
-        14,
-        10770,
-        878,
-        12,
-        10402
-      ],
-      "id": 537061,
-      "original_language": "en",
-      "original_title": "Steven Universe: The Movie",
-      "overview": "Two years after bringing peace to the galaxy, Steven Universe sees his past come back to haunt him in the form of a deranged Gem who wants to destroy the Earth.",
-      "popularity": 18.238,
-      "poster_path": "/8mRgpubxHqnqvENK4Bei30xMDvy.jpg",
-      "release_date": "2019-09-02",
-      "title": "Steven Universe: The Movie",
-      "video": false,
-      "vote_average": 8.3,
-      "vote_count": 700
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 299584,
-    "fields": {
-      "adult": false,
-      "backdrop_path": "/1o9hhza17nZ5Lu05MFKtat99JBK.jpg",
-      "genre_ids": [
-        10770,
-        10749
-      ],
-      "id": 299584,
-      "original_language": "en",
-      "original_title": "Christmas Under Wraps",
-      "overview": "When a driven doctor doesn't get the prestigious position she planned for, she unexpectedly finds herself moving to a remote Alaskan town. While she meets the locals and even starts a new romance, she has to learn to let the life she planned for give way to a love she never could have imagined, and finds this festive small town is hiding one big holiday secret.",
-      "popularity": 18.173,
-      "poster_path": "/uBPISDQB1FRhJHQMID7H9DlRon6.jpg",
-      "release_date": "2014-11-29",
-      "title": "Christmas Under Wraps",
-      "video": false,
-      "vote_average": 5.9,
-      "vote_count": 158
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 1031165,
-    "fields": {
-      "adult": false,
-      "backdrop_path": "/9JJ8t38FtQvt2xEGc4cbAnSiCAh.jpg",
-      "genre_ids": [
-        10770,
-        35,
-        18,
-        10749
-      ],
-      "id": 1031165,
-      "original_language": "en",
-      "original_title": "Merry Textmas",
-      "overview": "Gaby Diaz, an app developer from Austin, Texas, and the last unmarried sibling in her family, heads to her abuela\u2019s house in Oaxaca, Mexico, for the holidays. When she accidentally adds Alex Alvarada, a graphic designer who\u2019s lost touch with his own Mexican roots, to the family group chat, her family invites him to come along for the holidays.",
-      "popularity": 17.988,
-      "poster_path": "/jlyw6b6kUTXKyD6lf5aGqqOdV8p.jpg",
-      "release_date": "2022-12-04",
-      "title": "Merry Textmas",
-      "video": false,
-      "vote_average": 0,
-      "vote_count": 0
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 26736,
-    "fields": {
-      "adult": false,
-      "backdrop_path": "/7jKVrSLqPxOynC9z5gel4BNmhui.jpg",
-      "genre_ids": [
-        10751,
-        10770,
-        12,
-        35,
-        18,
-        14,
-        28
-      ],
-      "id": 26736,
-      "original_language": "en",
-      "original_title": "Wizards of Waverly Place: The Movie",
-      "overview": "A young wizard accidentally conjures a spell that puts her family in jeopardy.",
-      "popularity": 17.975,
-      "poster_path": "/reHGWHlF5tHwFQiFmsWHn9gwIpq.jpg",
-      "release_date": "2009-08-28",
-      "title": "Wizards of Waverly Place: The Movie",
-      "video": false,
-      "vote_average": 6.6,
-      "vote_count": 1264
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 483104,
-    "fields": {
-      "adult": false,
-      "backdrop_path": "/mNjoA9jDNbxPJqeYmeETLStpYZF.jpg",
-      "genre_ids": [
-        10749,
-        10770
-      ],
-      "id": 483104,
-      "original_language": "en",
-      "original_title": "A Christmas Prince",
-      "overview": "When a reporter goes undercover as a nanny to get the inside scoop on a playboy prince, she gets tangled in some royal intrigue and ends up finding love - but will she be able to keep up her lie?",
-      "popularity": 17.668,
-      "poster_path": "/x0IGQsMzVbsF7noj5cCfEk1GU7s.jpg",
-      "release_date": "2017-11-17",
-      "title": "A Christmas Prince",
-      "video": false,
-      "vote_average": 6.6,
-      "vote_count": 1321
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 764104,
-    "fields": {
-      "adult": false,
-      "backdrop_path": "/k7rxfxdroEsfzHx3P3ADYx2xm6I.jpg",
-      "genre_ids": [
-        10749,
-        18,
-        10770
-      ],
-      "id": 764104,
-      "original_language": "en",
-      "original_title": "Too Close for Christmas",
-      "overview": "When Hayley accepts an invitation to spend Christmas with her sister\u2019s new in-laws, her seemingly perfect holiday takes a turn when Luke, Hayley's brother-in-law's brother, unexpectedly shows up. Still harboring a grudge against Luke for ending her last relationship, Hayley reluctantly spends time with Luke and slowly realizes she may have been too quick a judge on Luke.",
-      "popularity": 17.642,
-      "poster_path": "/ggWY6vsKqrwIc5tMQsaPuBnmQU8.jpg",
-      "release_date": "2020-11-13",
-      "title": "Too Close for Christmas",
-      "video": false,
-      "vote_average": 5.8,
-      "vote_count": 80
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 46169,
-    "fields": {
-      "adult": false,
-      "backdrop_path": "/e5Ji8WK9M3fEgmSYqJDjh52g0I4.jpg",
-      "genre_ids": [
-        18,
-        10751,
-        14,
-        10770
-      ],
-      "id": 46169,
-      "original_language": "en",
-      "original_title": "Twitches Too",
-      "overview": "Reunited witch twins Camryn and Alex adjust to their new life as supernatural beings while at the same time trying to maintain a normal existence in this sequel to the magical Disney Channel original movie Twitches. But they soon find themselves going head to head with the forces of darkness that threaten to destroy their world. Luckily, their birth mother, the powerful Miranda, is on hand to help out.",
-      "popularity": 17.605,
-      "poster_path": "/70aurzbqFMuJnwhIVW2aXeyzBAp.jpg",
-      "release_date": "2007-10-12",
-      "title": "Twitches Too",
-      "video": false,
-      "vote_average": 6.8,
-      "vote_count": 292
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 10912,
-    "fields": {
-      "adult": false,
-      "backdrop_path": "/lPFq4Mv18bNGHYLjYEvYOBB3ilc.jpg",
-      "genre_ids": [
-        10752,
-        18,
-        10770
-      ],
-      "id": 10912,
-      "original_language": "en",
-      "original_title": "All Quiet on the Western Front",
-      "overview": "At the start of World War I, Paul Baumer is a young German patriot, eager to fight. Indoctrinated with propaganda at school, he and his friends eagerly sign up for the army soon after graduation. But when the horrors of war soon become too much to bear, and as his friends die or become gravely wounded, Paul questions the sanity of fighting over a few hundreds yards of war-torn countryside.",
-      "popularity": 17.574,
-      "poster_path": "/2HHFfieloWJcIz5PU3NKrv1i6DJ.jpg",
-      "release_date": "1979-11-14",
-      "title": "All Quiet on the Western Front",
-      "video": false,
-      "vote_average": 6.6,
-      "vote_count": 144
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 50300,
-    "fields": {
-      "adult": false,
-      "backdrop_path": "/zvYyXc4wfevrxDRhkdyANMqu9KD.jpg",
-      "genre_ids": [
-        35,
-        16,
-        12,
-        10770
-      ],
-      "id": 50300,
-      "original_language": "en",
-      "original_title": "Ed, Edd n Eddy's Big Picture Show",
-      "overview": "When a scam goes horribly wrong and leaves the neighborhood kids furious, the Eds embark on a journey to find Eddy's brother in the \"Ed, Edd, n Eddy\" series finale.",
-      "popularity": 17.54,
-      "poster_path": "/uVEk216PiUiGrG6Lxo71NqgdZ7Z.jpg",
-      "release_date": "2009-11-08",
-      "title": "Ed, Edd n Eddy's Big Picture Show",
-      "video": false,
-      "vote_average": 7.3,
-      "vote_count": 91
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 19580,
-    "fields": {
-      "adult": false,
-      "backdrop_path": "/iIHulEFRDnk4AUl7PZBVv9OK2vf.jpg",
-      "genre_ids": [
-        28,
-        12,
-        35,
-        10770
-      ],
-      "id": 19580,
-      "original_language": "en",
-      "original_title": "The Dukes of Hazzard: The Beginning",
-      "overview": "When mischievous teenaged cousins Bo and Luke Duke are arrested, both boys are paroled to the care of their Uncle Jesse in Hazzard, sentenced to a summer of hard work. It's not long before the Duke boys learn of Boss Hogg's plans to foreclose on Uncle Jesse's farm. Together, with help from their cousin Daisy, Bo and Luke vow to save the family's property and its storied history of producing the best moonshine in all of Hazzard.",
-      "popularity": 17.519,
-      "poster_path": "/1kqpqfIhCvuPRqNuH0ox3T5MBHZ.jpg",
-      "release_date": "2007-03-04",
-      "title": "The Dukes of Hazzard: The Beginning",
-      "video": false,
-      "vote_average": 6.3,
-      "vote_count": 167
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 205081,
-    "fields": {
-      "adult": false,
-      "backdrop_path": "/5VZ3GramsLcNS8RjypzmLU4h5hH.jpg",
-      "genre_ids": [
-        16,
-        878,
-        10770,
-        12,
-        10751,
-        35,
-        14,
-        9648
-      ],
-      "id": 205081,
-      "original_language": "en",
-      "original_title": "Codename: Kids Next Door - Operation Z.E.R.O.",
-      "overview": "The villains of the Kids Next Door, lead by Father, join forces to resurrect the Ultimate Evil, Grandfather, a tyrant who once ruled the world many years ago when most of the villains were themselves kids. However, Father disgraced him that he can't even try to destroy the KND and the Villains were quickly betrayed when they are turned into Senior Citizombies, creatures that are immortal and can transform any living creature into one of them and slaves who are forced to make Tapioca to refuel Grandfather so he can find and destroy the Book of K.N.D.",
-      "popularity": 17.47,
-      "poster_path": "/fwgLVVHcDT2XtR3I9ozHN2CwC0v.jpg",
-      "release_date": "2006-08-10",
-      "title": "Codename: Kids Next Door - Operation Z.E.R.O.",
-      "video": false,
-      "vote_average": 8.1,
-      "vote_count": 149
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 1032581,
-    "fields": {
-      "adult": false,
-      "backdrop_path": null,
-      "genre_ids": [
-        10770,
-        35,
-        18,
-        10749
-      ],
-      "id": 1032581,
-      "original_language": "en",
-      "original_title": "Crown Prince of Christmas",
-      "overview": "Madison, an aspiring musician, jokingly tells her overbearing family that she is dating the prince of a small European nation. The joke goes too far as her friend and co-worker Sebastian is roped into impersonating the prince while visiting her family in New Jersey. Little does Madison know that Sebastian happens to be hiding a royal secret.",
-      "popularity": 17.366,
-      "poster_path": null,
-      "release_date": "2022-12-10",
-      "title": "Crown Prince of Christmas",
-      "video": false,
-      "vote_average": 0,
-      "vote_count": 0
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 874299,
-    "fields": {
-      "adult": false,
-      "backdrop_path": "/k0n1NQZsEP9vX3Jv6LqSrTz0SS5.jpg",
-      "genre_ids": [
-        16,
-        35,
-        10770
-      ],
-      "id": 874299,
-      "original_language": "en",
-      "original_title": "South Park: Post COVID",
-      "overview": "What happened to the children who lived through the Pandemic? Stan, Kyle, Cartman and Kenny survived but will never be the same Post Covid.",
-      "popularity": 17.339,
-      "poster_path": "/abDxPtElhJnLnnJxgMqJ1N2H8yl.jpg",
-      "release_date": "2021-11-25",
-      "title": "South Park: Post COVID",
-      "video": false,
-      "vote_average": 7.3,
-      "vote_count": 182
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 10372,
-    "fields": {
-      "adult": false,
-      "backdrop_path": "/xdH8k2O6mpLv4szeLkQGiM1aSOC.jpg",
-      "genre_ids": [
-        12,
-        10751,
-        10770
-      ],
-      "id": 10372,
-      "original_language": "en",
-      "original_title": "Ewoks: The Battle for Endor",
-      "overview": "The army of the Marauders, led by King Terak and the witch Charal, attack the Ewoks village, killing Cindel's family. Cindel and the Ewok Wicket escape and meet Teek in the forest, a naughty and very fast animal. Teek takes them to a house in which an old man, Noa, lives. Like Cindel, he also crashed with his Starcruiser on Endor. Together they fight Terak and Charal.",
-      "popularity": 17.275,
-      "poster_path": "/ntgKdekb7xMKscyh2Hei706LBLf.jpg",
-      "release_date": "1985-11-24",
-      "title": "Ewoks: The Battle for Endor",
-      "video": false,
-      "vote_average": 5.3,
-      "vote_count": 203
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 291167,
-    "fields": {
-      "adult": false,
-      "backdrop_path": "/v2wEwWPLni79C5lAhSLUH9yfQRy.jpg",
-      "genre_ids": [
-        12,
-        878,
-        10770,
-        27,
-        14,
-        9648
-      ],
-      "id": 291167,
-      "original_language": "en",
-      "original_title": "Crystal Skulls",
-      "overview": "A millionaire philanthropist collects the famous Chrystal Skulls trying to tap into their ancient powers. It is up to a team lead by a college professor whose father disappeared searching for the 13th skull to save the world when the first 12 skulls are united and reek havoc on the earth without the control of the 13th skull.",
-      "popularity": 17.223,
-      "poster_path": "/8LibYV8Jf8BbVZvCh26LJo69oxe.jpg",
-      "release_date": "2014-08-12",
-      "title": "Crystal Skulls",
-      "video": false,
-      "vote_average": 5,
-      "vote_count": 22
-    }
-  },
-  {
-    "model": "movies.movie",
     "pk": 922885,
     "fields": {
       "adult": false,
@@ -492,13 +15,478 @@
       "original_language": "es",
       "original_title": "Laura y el misterio del asesino inesperado",
       "overview": "After years of leave, Laura Lebrel returns to action. Lydia asks him for help on a case: Eugenio Ortiz, Laura's former instructor, has been murdered. But a new detective, Hector, finds evidence that incriminates Laura. She asks to be allowed to find the killer and Lydia gives her 24 hours to solve the case before arresting her.",
-      "popularity": 17.212,
+      "popularity": 16.749,
       "poster_path": "/p6T9g5a227cUs4rlTlaxo8QAqIf.jpg",
       "release_date": "2022-01-13",
       "title": "Laura y el misterio del asesino inesperado",
       "video": false,
       "vote_average": 6.9,
       "vote_count": 12
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 177888,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/znjVe07uk6VLIMK9Lsd2kGsq97B.jpg",
+      "genre_ids": [
+        10751,
+        10402,
+        10770,
+        35
+      ],
+      "id": 177888,
+      "original_language": "en",
+      "original_title": "Teen Beach Movie",
+      "overview": "Life's a beach for surfers Brady and McKenzie \u2013 until a rogue wave magically transports them inside the classic '60s beach party flick, \"Wet Side Story,\" where a full-blown rivalry between bikers and surfers threatens to erupt. There, amidst a sea of surfing, singing and dancing, Brady and Mack accidentally change the storyline, and the film\u2019s dreamy hero and heroine fall for them instead of for each other!",
+      "popularity": 16.316,
+      "poster_path": "/ywX8INXLshhf94pyxc8wE2MO4aT.jpg",
+      "release_date": "2013-08-07",
+      "title": "Teen Beach Movie",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 811
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1020473,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/9R3f0jQVXHVr5wTBd5a9MtxMdqC.jpg",
+      "genre_ids": [
+        10770,
+        35,
+        10749
+      ],
+      "id": 1020473,
+      "original_language": "en",
+      "original_title": "Kirk Franklin's The Night Before Christmas",
+      "overview": "It follows an estranged mother and her daughter as they get caught in a snowstorm on Christmas Eve and are forced to take refuge inside a church. They meet a handsome pastor and a music teacher who motivate them to reconnect.",
+      "popularity": 23.818,
+      "poster_path": "/b0zGapGO05oz7MPxkCFlR9Dk8V.jpg",
+      "release_date": "2022-12-10",
+      "title": "Kirk Franklin's The Night Before Christmas",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 325189,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/iB9GrEzVZHXytvSmlUVAssM45jz.jpg",
+      "genre_ids": [
+        10770,
+        10751,
+        35,
+        14
+      ],
+      "id": 325189,
+      "original_language": "en",
+      "original_title": "Teen Beach 2",
+      "overview": "When characters from the movie musical \u201cWet Side Story\u201d get stuck in the real world, teens Brady and Mack must find a way to return them home.",
+      "popularity": 14.781,
+      "poster_path": "/fa7kzaraZaCVO559kp7yMASACCF.jpg",
+      "release_date": "2015-06-26",
+      "title": "Teen Beach 2",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 515
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 379170,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/jiQRyCFXAgLBjnbYQxz04dxGWvR.jpg",
+      "genre_ids": [
+        80,
+        18,
+        9648,
+        10770
+      ],
+      "id": 379170,
+      "original_language": "en",
+      "original_title": "Sherlock: The Abominable Bride",
+      "overview": "Sherlock Holmes and Dr. Watson find themselves in 1890s London in this holiday special.",
+      "popularity": 20.777,
+      "poster_path": "/hibE8cyZs2Bm0o4WaWd1pppvjO2.jpg",
+      "release_date": "2016-01-01",
+      "title": "Sherlock: The Abominable Bride",
+      "video": false,
+      "vote_average": 7.9,
+      "vote_count": 2067
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 225914,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/zlpZzccypkAYFZIyYLQcchl90ZC.jpg",
+      "genre_ids": [
+        878,
+        28,
+        80,
+        10770
+      ],
+      "id": 225914,
+      "original_language": "en",
+      "original_title": "Spider-Man",
+      "overview": "When an extortionist threatens to force a multi-suicide unless a huge ransom is paid, only Peter Parker can stop him with his new powers as Spider-Man.",
+      "popularity": 18.863,
+      "poster_path": "/jNxRHZ2cxVkNRtxgHuCtv7GY4JP.jpg",
+      "release_date": "1978-03-15",
+      "title": "Spider-Man",
+      "video": false,
+      "vote_average": 5.8,
+      "vote_count": 95
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 874300,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/MNyDL2YlOckMcOcdYna2N1UCxE.jpg",
+      "genre_ids": [
+        16,
+        35,
+        10770
+      ],
+      "id": 874300,
+      "original_language": "en",
+      "original_title": "South Park: Post COVID: The Return of COVID",
+      "overview": "If Stan, Kyle and Cartman could just work together, they could go back in time to make sure Covid never happened. But traveling back to the past seems to be the easy answer until they meet Victor Chaos.",
+      "popularity": 16.808,
+      "poster_path": "/xD88mrJ8hsqYVqQ6kinNNGQLdg1.jpg",
+      "release_date": "2021-12-16",
+      "title": "South Park: Post COVID: The Return of COVID",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 248
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 438747,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/bAHwlrxTvC37wU86kl4D2QJkMfj.jpg",
+      "genre_ids": [
+        12,
+        16,
+        35,
+        10751,
+        14,
+        10770
+      ],
+      "id": 438747,
+      "original_language": "en",
+      "original_title": "Tangled: Before Ever After",
+      "overview": "Rapunzel grapples with the responsibilities of being a princess and the overprotective ways of her father. While she wholeheartedly loves Eugene, Rapunzel does not share his immediate desire to get married and settle down within the castle walls. Determined to live life on her own terms, she and her tough-as-nails Lady-in-Waiting Cassandra embark on a secret adventure where they encounter mystical rocks that magically cause Rapunzel's long blonde hair to grow back. Impossible to break and difficult to hide, Rapunzel must learn to embrace her hair and all that it represents.",
+      "popularity": 18.013,
+      "poster_path": "/8BiZ8KXS0itmOx4uQw3E8UnmqEQ.jpg",
+      "release_date": "2017-03-10",
+      "title": "Tangled: Before Ever After",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 329
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 13400,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/4RuaMtvZdbST5efwAcynIWgU4yp.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        14,
+        10770
+      ],
+      "id": 13400,
+      "original_language": "en",
+      "original_title": "Santa Claus Is Comin' to Town",
+      "overview": "A postman, S.D. Kluger, decides to answer some of the most common questions about Santa Claus, and tells us about a baby named Kris who is raised by a family of elf toymakers named Kringle. When Kris grows up, he wants to deliver toys to the children of Sombertown. But its Mayor is too mean to let that happen. And to make things worse, the Winter Warlock lives between the Kringles and Sombertown.",
+      "popularity": 15.241,
+      "poster_path": "/8BYZEKB0BQkbniS1WRzPaU38cmp.jpg",
+      "release_date": "1970-12-14",
+      "title": "Santa Claus Is Comin' to Town",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 173
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1024776,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/wHXdFpbcwQlfuhWREzDJpJflLTR.jpg",
+      "genre_ids": [
+        10770,
+        35,
+        10749
+      ],
+      "id": 1024776,
+      "original_language": "en",
+      "original_title": "Christmas on Candy Cane Lane",
+      "overview": "Ivy Donaldson struggles with her mom's shadow, Muriel, the Christmas darling of Icicle Falls. She is now separated from her husband Rob and tries her best with her daughter, but after a series of strange but comical events everybody gets together in unexpected but festive ways.",
+      "popularity": 9.93,
+      "poster_path": "/aPyJE1kiBK2R9shzQuOYUqouqCB.jpg",
+      "release_date": "2022-12-03",
+      "title": "Christmas on Candy Cane Lane",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 2
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1033385,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/48mi1sOqhBdpQAYDpri1zn55gFP.jpg",
+      "genre_ids": [
+        10770,
+        35,
+        18,
+        10749
+      ],
+      "id": 1033385,
+      "original_language": "en",
+      "original_title": "Christmas in Rockwell",
+      "overview": "A famous Hollywood actress returns to her hometown where she is enlisted to participate in a Christmas play which threatens her small peaceful village with the chaos of Hollywood.",
+      "popularity": 20.494,
+      "poster_path": "/sdQfeBFz8mt493rXZHhBUpG2Hb2.jpg",
+      "release_date": "2022-12-11",
+      "title": "Christmas in Rockwell",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1028539,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/eGGOiri87zdNMWA57U2HlsrU470.jpg",
+      "genre_ids": [
+        10770,
+        35,
+        18,
+        10749
+      ],
+      "id": 1028539,
+      "original_language": "en",
+      "original_title": "Long Lost Christmas",
+      "overview": "Hayley is an interior designer who plans to surprise her recently widowed mother Patricia with the perfect holiday present: the extended family she knows her mom yearns for.",
+      "popularity": 23.016,
+      "poster_path": "/ep92klyhq5ePnHxsm7Psn6UPDF8.jpg",
+      "release_date": "2022-11-19",
+      "title": "Long Lost Christmas",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 5
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 20544,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/dFWsoHrYSS68sHiykdacM9T6jN3.jpg",
+      "genre_ids": [
+        10770,
+        18
+      ],
+      "id": 20544,
+      "original_language": "en",
+      "original_title": "Something the Lord Made",
+      "overview": "A dramatization of the relationship between heart surgery pioneers Alfred Blalock and Vivien Thomas.",
+      "popularity": 17.41,
+      "poster_path": "/AtI5X2UkM08XjGGjB3okULwxpRw.jpg",
+      "release_date": "2004-05-30",
+      "title": "Something the Lord Made",
+      "video": false,
+      "vote_average": 7.8,
+      "vote_count": 179
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 360606,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/cvDuW9yJ04m9e4eNjzGyXuQpP6Z.jpg",
+      "genre_ids": [
+        10770,
+        35,
+        10751
+      ],
+      "id": 360606,
+      "original_language": "en",
+      "original_title": "Adventures in Babysitting",
+      "overview": "Two teen rival babysitters, Jenny and Lola, team up to hunt down one of their kids who accidentally ran away into the big city without any supervision.",
+      "popularity": 17.466,
+      "poster_path": "/xuCPo0krpAcK2s1uMCZs93turdk.jpg",
+      "release_date": "2016-06-24",
+      "title": "Adventures in Babysitting",
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 338
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 490410,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/ap7XGo9qqfVox3NgPWcVgIBFSLN.jpg",
+      "genre_ids": [
+        10751,
+        10770
+      ],
+      "id": 490410,
+      "original_language": "en",
+      "original_title": "48 Christmas Wishes",
+      "overview": "Holiday magic has never gleamed brighter as Santa\u2019s Elves head out on an adventure to bring every boy and girl their Christmas wish while also bringing a family back together in this heartfelt Christmas movie from Gaumont. After accidentally destroying a bag of Christmas wishes from a small town on the eve of Christmas Eve, two junior elves learn that if even one wish goes unfulfilled, Christmas could be extinguished forever. For the first time in their lives, the elves Mindy and Cam venture out of the North Pole and sneak into Minnedoza to collect the lost wishes. Along the way they enlist the help of young Blake, whose family has a difficult time celebrating Christmas since his father died. With their deadline fast approaching, Mindy and Cam have only one more wish to find\u2026but whose could it be? It\u2019s up to Mindy and Cam to find out and save Christmas!",
+      "popularity": 14.202,
+      "poster_path": "/mrcA62O9j8y4gsSpftMKVcvrzCI.jpg",
+      "release_date": "2017-12-01",
+      "title": "48 Christmas Wishes",
+      "video": false,
+      "vote_average": 5.5,
+      "vote_count": 83
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 50126,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/pb4H0NSlmHYLXJVGfAWaIvELDdO.jpg",
+      "genre_ids": [
+        10770,
+        18,
+        14
+      ],
+      "id": 50126,
+      "original_language": "en",
+      "original_title": "Fallen",
+      "overview": "For high schooler Aaron Corbett, turning 18 means becoming not just a man but a nephilim, too -- half human, half angel, with supernatural abilities.",
+      "popularity": 12.942,
+      "poster_path": "/bAyvqgi3RjQIPnt0CDInZ27opNK.jpg",
+      "release_date": "2006-07-23",
+      "title": "Fallen",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 109
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 480623,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/sKoEKXA2OFdw8oDY6sv5wGygC0N.jpg",
+      "genre_ids": [
+        10749,
+        10770
+      ],
+      "id": 480623,
+      "original_language": "en",
+      "original_title": "Christmas Getaway",
+      "overview": "When a reservation mix-up at a mountain resort forces a newly-single travel writer to share a cabin with a handsome widower and his precocious daughter over the holidays, their lives are transformed by the magic of Christmas and the unexpected power of love.",
+      "popularity": 13.899,
+      "poster_path": "/ohBJhAI7YJrlYmnr4czCvZj1FW7.jpg",
+      "release_date": "2017-12-23",
+      "title": "Christmas Getaway",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 125
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1031046,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/iZaY57bypV7q7S27PgfaMA25OCe.jpg",
+      "genre_ids": [
+        10770,
+        35,
+        18,
+        10749
+      ],
+      "id": 1031046,
+      "original_language": "en",
+      "original_title": "Steppin' into the Holidays",
+      "overview": "Former Broadway star, Billy Holiday, meets Rae, the charismatic owner of a local dance studio. Billy volunteers to help Rae with a dance recital fundraiser, their collaboration clicks and romantic sparks start flying.",
+      "popularity": 18.123,
+      "poster_path": "/f8a5T3qUC0N0bBR8XtFvlAunlro.jpg",
+      "release_date": "2022-11-25",
+      "title": "Steppin' into the Holidays",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 2
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 48186,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/1tmcsKQo0QzAzpvm1Akmkmxstjq.jpg",
+      "genre_ids": [
+        10751,
+        14,
+        10770,
+        35
+      ],
+      "id": 48186,
+      "original_language": "en",
+      "original_title": "The Boy Who Cried Werewolf",
+      "overview": "A Californian family inherits a castle in Romania. This is especially exciting to the son, who is obsessed with monsters. And he is not disappointed.",
+      "popularity": 13.935,
+      "poster_path": "/i7lny9FF2ylyPDwdF70ImmSbOv3.jpg",
+      "release_date": "2010-10-22",
+      "title": "The Boy Who Cried Werewolf",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 267
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 65218,
+    "fields": {
+      "adult": false,
+      "backdrop_path": "/7vt9tQv286pM0kDnVCVul9oyJNM.jpg",
+      "genre_ids": [
+        18,
+        35,
+        10770
+      ],
+      "id": 65218,
+      "original_language": "en",
+      "original_title": "Lemonade Mouth",
+      "overview": "After five disparate high school students meet in detention, they realize they have more in common than they think and form a band that becomes a champion for students sidelined by the high school elite.",
+      "popularity": 10.684,
+      "poster_path": "/nrGiOFh7wk2x726tiN8kQ6nhF5b.jpg",
+      "release_date": "2011-12-06",
+      "title": "Lemonade Mouth",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 946
     }
   }
 ]
