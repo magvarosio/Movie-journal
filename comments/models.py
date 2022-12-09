@@ -9,3 +9,8 @@ class Comment(models.Model):
         related_name='comments', 
         on_delete=models.CASCADE # se voglio mettere l'opzione di cancellare un film, cancella anche i commenti
     )
+    owner = models.ForeignKey( # add owner to comments
+      'jwt_auth.User',
+      related_name='comments',
+      on_delete=models.CASCADE
+    )
