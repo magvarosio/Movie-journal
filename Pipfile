@@ -12,6 +12,7 @@ djangorestframework = "*"
 requests = "*"
 jwt = "*"
 pyjwt = "*"
+django-environ = "*"
 
 [dev-packages]
 
