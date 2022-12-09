@@ -1,10 +1,10 @@
 from .common import MovieSerializer
-from comments.serializers.common import CommentSerializer
+from comments.serializers.populated import PopulatedCommentSerializer
 from genres.serializers.common import GenreSerializer
 
 
 class PopulatedMovieSerializer(MovieSerializer):
-  comments = CommentSerializer(many=True)
+  comments = PopulatedCommentSerializer(many=True)
   genre_ids = GenreSerializer(many=True)
   
   # popolo /genres/ con i movies
