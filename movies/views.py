@@ -21,7 +21,7 @@ class MovieListView(APIView):
   def get(self, _request):
     movies = Movie.objects.all()
     print("MOVIES!!! -> ", movies)
-    serialized_movies = MovieSerializer(movies, many=True)
+    serialized_movies = PopulatedMovieSerializer(movies, many=True)
     print(serialized_movies.data)
     return Response(serialized_movies.data, status.HTTP_200_OK)
   
