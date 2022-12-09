@@ -2,6 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.exceptions import NotFound
+from rest_framework.permissions import IsAuthenticated
 
 from .serializers.common import CommentSerializer
 from .models import Comment
@@ -9,6 +10,7 @@ from .models import Comment
 
 # /comments/
 class CommentListView(APIView):
+    permission_classes = (IsAuthenticated, )
   
   # ***** CREATE A COMMENT ******
 
@@ -25,6 +27,7 @@ class CommentListView(APIView):
 # **** DELETE COMMENT *****
 
 class CommentDetailView(APIView):
+    permission_classes = (IsAuthenticated, )
 
     def delete(self, _request, pk):
         try:

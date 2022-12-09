@@ -10,13 +10,15 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.exceptions import NotFound 
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
 
 
 
 # ! /movies
 
 class MovieListView(APIView):
-  
+  permission_classes = (IsAuthenticatedOrReadOnly, )
+
   # ***** GET ALL MOVIES ****
 
   def get(self, _request):
@@ -30,9 +32,10 @@ class MovieListView(APIView):
   
 # ! /movies/:pk (come dire :id)  
 class MovieDetailView(APIView):
+    permission_classes = (IsAuthenticatedOrReadOnly, )
   
 
-  # ***** CUSTOM FUNCTION (reusable) NOT a controller
+  # ***** CUSTOM FUNCTION (reusable -> add feauture addMovie/editMovie)
     def get_movie(self, pk):
       try:
         return Movie.objects.get(pk=pk) #cerca nel movie-table una primary key che matchi la primary key della request di insomnia
