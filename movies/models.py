@@ -24,4 +24,4 @@ class Movie(models.Model):
     vote_count = models.PositiveBigIntegerField()
     
     def __str__(self):
-        return f"{self.title} {self.genre_ids} {self.vote_average}" # add genre
+        return f"{self.title} - {self.vote_average}" # add genre
