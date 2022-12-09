@@ -14,9 +14,10 @@ from rest_framework.exceptions import NotFound
 
 
 # ! /movies
-# ***** GET ALL MOVIES ****
 
 class MovieListView(APIView):
+  
+  # ***** GET ALL MOVIES ****
 
   def get(self, _request):
     movies = Movie.objects.all()
