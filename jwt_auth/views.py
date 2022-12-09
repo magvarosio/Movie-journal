@@ -8,7 +8,13 @@ from django.contrib.auth import get_user_model
 
 from .serializers.common import UserSerializer
 
-# Create your views here.
+from datetime import datetime, timedelta
+import jwt
+
+from django.conf import settings # secr key
+
+
+
 
 User = get_user_model()
 
@@ -30,5 +36,30 @@ class RegisterView(APIView):
 class LoginView(APIView):
   
     def post(self, request):
-        print('DATAAA -> ', request.data)
-        return Response(' **** LOGIN ROUTE ****')
+        email = request.data['email']
+        password = request.data['password']
+        try:
+            user_to_login = User.objects.get(email=email)
+        except User.DoesNotExist as e:
+            print(e)
+            raise PermissionDenied('Invalid Credentials')
+
+        if not user_to_login.check_password(password):
+            print('PASSWORD INCORRECT')
+            raise PermissionDenied('Invalid Credentials')
+
+        dt = datetime.now() + timedelta(days=7)
+        dt_as_seconds = int(dt.strftime('%s')) # %s seconds
+        
+        # token -> sub, exp, secret key
+        token = jwt.encode(
+            { 'sub': user_to_login.id, 'exp': dt_as_seconds },
+            settings.SECRET_KEY,
+            'HS256'
+        )
+        print(token)
+        
+        return Response({
+            'token': token,
+            'message': f'Welcome back, {user_to_login.username}!'
+        }, status.HTTP_202_ACCEPTED)
