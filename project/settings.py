@@ -140,6 +140,6 @@ AUTH_USER_MODEL = 'jwt_auth.User'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
-        'jwt_auth.authentication.JWTAuthentication' # appname.filename.classname
+        'jwt_auth.authentication.JWTAuthentication'  #  appname.filename.classname
     ]
 }

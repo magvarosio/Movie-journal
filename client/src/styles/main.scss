@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+}
+
+
+$primary: #000000;
+
+
+
+.navbar {
+  background-color: darken($primary, 0%);
+
+  .nav-link {
+    cursor: pointer;
+    color: rgb(219, 215, 215);
+  }
+}

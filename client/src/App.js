@@ -1,26 +1,27 @@
 import React from 'react'
-import styled from 'styled-components'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-const App = () => (
-  <AppContainer>
-    <Intro>
-       Welcome to my CRA-Template!
-    </Intro>
-  </AppContainer>
-)
+
+
+// components
+
+import Home from './components/pages/Home'
+import NotFound from './components/pages/NotFound'
+
+
+
+const App = () => {
+  return (
+    <div className='site-wrapper'>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
+  )
+}
+
 
 export default App
-
-const AppContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  height: 100vh;
-  background: #1d1f27;
-`
-
-const Intro = styled.p`
-  font-size: 2.5vw;
-  color: #ffff;
-`
