@@ -1,5 +1,6 @@
 * {
   margin: 0;
+
 }
 
 
@@ -13,5 +14,31 @@ $primary: #000000;
   .nav-link {
     cursor: pointer;
     color: rgb(219, 215, 215);
+  }
+}
+
+
+
+.form-page {
+  form {
+    background: #d1cfcf;
+    padding: 40px;
+    border-radius: 18px;
+
+    label {
+      font-size: 0.9rem;
+    }
+
+    input {
+      width: 100%;
+      margin-bottom: 15px;
+      border: none;
+      padding: 5px;
+    }
+
+    small {
+      display: block;
+      margin-bottom: 15px;
+    }
   }
 }
