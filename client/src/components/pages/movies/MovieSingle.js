@@ -5,6 +5,9 @@ import axios from 'axios'
 // import '../../styles/components/moviesrow.scss'
 import MovieCarousel from '../../common/MovieCarousel'
 
+import AddComment from '../AddComment'
+
+
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
@@ -53,7 +56,6 @@ const MovieSingle = () => {
 
 
   console.log('****movie!**** -->', movie)
-  // console.log(movie.backdrop_path)
 
 
   return (
@@ -71,8 +73,6 @@ const MovieSingle = () => {
           </Card.Body>
         </Card>
 
-
-        <Button variant="danger">Review</Button>
         <Button variant="danger">Watched</Button>
         <Button variant="danger">Add to Watchlist</Button>
         <h1>{`${movie.title}`}</h1>
@@ -94,7 +94,7 @@ const MovieSingle = () => {
               <div key={comment.id}>
                 <p>{comment.text}</p>
                 <div>
-                  <Link to={`/movies/${movieId}/comments/${comment.id}/edit`}>Edit</Link>
+                  {/* <Link to={`/movies/${movieId}/comments/${comment.id}/edit`}>Edit</Link> */}
                   <button onClick={() => deleteComment(comment.id)}>Delete</button>
                 </div>
               </div>
@@ -102,8 +102,15 @@ const MovieSingle = () => {
           })}
         </div>
 
+        <Link to={`/movies/${movieId}/comments`}>Add comment</Link>
+        <hr />
+        <Link to="/" className='btn btn-main'>Back to home</Link>
+
       </main > : <p> loading</p>}
       {/* page loader? */}
+
+
+      <AddComment />
     </>
   )
 }
