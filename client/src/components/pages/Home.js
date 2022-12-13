@@ -2,8 +2,9 @@
 // import { Link } from 'react-router-dom'
 
 import PageNavbar from '../common/PageNavbar'
-import MoviesRow from './moviesComponents/MoviesRow'
-import MovieCarousel from './moviesComponents/MovieCarousel'
+import MoviesRow from '../common/MoviesRow'
+import MovieCarousel from '../common/MovieCarousel'
+// import SearchMovie from '../common/SearchMovie'
 
 
 
