@@ -102,7 +102,7 @@ const MovieSingle = () => {
           })}
         </div>
 
-        <Link to={`/movies/${movieId}/comments`}>Add comment</Link>
+        <Link to={`/movies/comments/${movieId}`}>Add comment</Link>
         <hr />
         <Link to="/" className='btn btn-main'>Back to home</Link>
 
@@ -110,7 +110,7 @@ const MovieSingle = () => {
       {/* page loader? */}
 
 
-      <AddComment />
+      {/* <AddComment /> */}
     </>
   )
 }
