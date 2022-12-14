@@ -54,3 +54,14 @@ class MovieDetailView(APIView):
         # ritorna un single object back, dobbiamo serialize it (we don't need many = True)
         serialized_movie = PopulatedMovieSerializer(movie)
         return Response(serialized_movie.data)  # send back serialized data
+
+
+class MovieSearchView(APIView):
+
+    def get(self, _request, query):
+        print('MANGOOOOO->', query)
+        # iexact -> case insensitive, but exact ---  icontains -> it contains the word
+        movies = Movie.objects.filter(title__icontains=query)
+        serialized_movies = PopulatedMovieSerializer(movies, many=True)
+        print('MOVIESSSSSSS----->', movies)
+        return Response(serialized_movies.data)

@@ -35,7 +35,7 @@ function PageNavbar() {
             <Nav.Link href="#action1">My Watchlist</Nav.Link>
             <Nav.Link href="#action2">Boh</Nav.Link>
           </Nav>
-          <Form className="d-flex">
+          {/* <Form className="d-flex">
             <Form.Control
               type="search"
               placeholder="Search"
@@ -43,7 +43,7 @@ function PageNavbar() {
               aria-label="Search"
             />
             <Button variant="outline-success">Search</Button>
-          </Form>
+          </Form> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

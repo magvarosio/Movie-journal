@@ -21,5 +21,5 @@ urlpatterns = [
     path('api/movies/', include('movies.urls')),  # check
     path('api/comments/', include('comments.urls')),
     path('api/genres/', include('genres.urls')),
-    path('api/auth/', include('jwt_auth.urls'))
+    path('api/auth/', include('jwt_auth.urls')),
 ]

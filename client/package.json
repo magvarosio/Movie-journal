@@ -11,6 +11,7 @@
     "babel-plugin-styled-components": "^1.13.3",
     "bootstrap": "^5.2.3",
     "flexbox-react": "^4.4.0",
+    "mdbreact": "^5.2.0",
     "react": "^18.1.0",
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.1.0",

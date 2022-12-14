@@ -86,8 +86,6 @@ const MovieSingle = () => {
 
         {/* Comments */}
         <h2><span>💬</span> Comments </h2>
-
-
         <div>
           {movie.comments.map(comment => {
             return (
