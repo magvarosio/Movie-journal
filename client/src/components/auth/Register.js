@@ -46,8 +46,7 @@ const Register = () => {
       console.log('Register successful')
       navigate('/login')
     } catch (err) {
-      console.log(err.response.data.non_field_errors)
-      setError(err.response.data.non_field_errors)
+      setError(err.request.response)
     }
   }
 

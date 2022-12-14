@@ -6,7 +6,6 @@ import { getToken } from '../../../helpers/auth'
 
 // import '../../styles/components/moviesrow.scss'
 
-import AddComment from '../AddComment'
 import PageNavbar from '../../common/PageNavbar'
 
 
@@ -92,6 +91,7 @@ const MovieSingle = () => {
           {movie.comments.map(comment => {
             return (
               <div key={comment.id}>
+                <h4>{comment.owner.username}</h4>
                 <p>{comment.text}</p>
                 <div>
                   {/* <Link to={`/movies/${movieId}/comments/${comment.id}/edit`}>Edit</Link> */}

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import { MDBCol, MDBIcon } from 'mdbreact'
 import PageNavbar from '../common/PageNavbar'
@@ -6,6 +7,8 @@ import PageNavbar from '../common/PageNavbar'
 const urlPosters = 'http://image.tmdb.org/t/p/original/'
 
 const SearchMovie = () => {
+
+  const navigate = useNavigate()
 
   const [movies, setMovies] = useState([])
   const [updatedMovies, setUpdatedMovies] = useState([])
@@ -35,6 +38,9 @@ const SearchMovie = () => {
     setQuery(e.target.value)
   }
 
+  const handleNavigation = (movie) => {
+    navigate(`/movies/${movie.id}`)
+  }
 
   return (
     <>
@@ -72,9 +78,10 @@ const SearchMovie = () => {
           <>
             <div key={id}>
               <p>{title}</p>
-              <img className="poster"
+              <img
+                className="poster"
+                onClick={() => handleNavigation(movie)}
                 src={`${urlPosters}${posterPath}`}
-                // key={`${id}`}
                 alt={title} />
             </div>
           </>

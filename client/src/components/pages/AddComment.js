@@ -18,14 +18,18 @@ const AddComment = () => {
   const stars = Array(5).fill(0)
 
 
-  const [error, setError] = useState(false)
+
   const [formdata, setFormdata] = useState({
     rating: '',
     text: '',
   })
 
+  const [error, setError] = useState('')
+
   const { movieId, commentId } = useParams()
   const navigate = useNavigate()
+
+
 
   const handleChange = event => {
     const updatedReviewField = {
@@ -62,7 +66,8 @@ const AddComment = () => {
       }
       navigate(`/movies/${movieId}`)
     } catch (err) {
-      console.log(err)
+      console.log(err.response.statusText)
+      setError(err.response.statusText)
     }
   }
 
@@ -114,7 +119,8 @@ const AddComment = () => {
           <button className="submit-feedback-button" >
             Submit feedback
           </button>
-          <button>Delete Feedback</button>
+          {/* Error Message */}
+          {error && <small className='text-danger'>{error}</small>}
         </div>
       </form>
     </div>

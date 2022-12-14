@@ -20,14 +20,17 @@ class MovieListView(APIView):
     # ***** GET ALL MOVIES ****
 
     def get(self, _request):
-        movies = Movie.objects.all()
+        movies = Movie.objects.all()[:20]
         # print("MOVIES!!! -> ", movies)
         serialized_movies = PopulatedMovieSerializer(movies, many=True)
         # print(serialized_movies.data)
         return Response(serialized_movies.data, status.HTTP_200_OK)
 
+ # ***** GET THE FIRST 20 MOVIES ****
 
 # ! /movies/:pk (come dire :id)
+
+
 class MovieDetailView(APIView):
     permission_classes = (IsAuthenticatedOrReadOnly, )
 
@@ -63,5 +66,16 @@ class MovieSearchView(APIView):
         # iexact -> case insensitive, but exact ---  icontains -> it contains the word
         movies = Movie.objects.filter(title__icontains=query)
         serialized_movies = PopulatedMovieSerializer(movies, many=True)
-        print('MOVIESSSSSSS----->', movies)
+        # print('MOVIESSSSSSS----->', movies)
+        return Response(serialized_movies.data)
+
+
+class MovieGenreView(APIView):
+
+    def get(self, _request, genre):
+        print('GENREEEEEEE->', genre)
+        # iexact -> case insensitive, but exact ---  icontains -> it contains the word
+        movies = Movie.objects.filter(genre_ids=genre)  # not sure
+        serialized_movies = PopulatedMovieSerializer(movies, many=True)
+        print('MOVIEEEE GENREEEEEE----->', movies)
         return Response(serialized_movies.data)
