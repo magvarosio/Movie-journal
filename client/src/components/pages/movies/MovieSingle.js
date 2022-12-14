@@ -2,6 +2,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
+import { getToken } from '../../../helpers/auth'
 // import '../../styles/components/moviesrow.scss'
 import MovieCarousel from '../../common/MovieCarousel'
 
@@ -41,12 +42,11 @@ const MovieSingle = () => {
 
   const deleteComment = async (commentId) => {
     try {
-      await axios.delete(`/api/movies/${movieId}/comments/${commentId}`)
-      // , {
-      //   headers: {
-      //     Authorization: `Bearer ${getToken()}`, 
-      //   },
-      // })
+      await axios.delete(`/api/comments/${commentId}/`, {
+        headers: {
+          Authorization: `Bearer ${getToken()}`,
+        },
+      })
       getMovie()
     } catch (error) {
       console.log(error)

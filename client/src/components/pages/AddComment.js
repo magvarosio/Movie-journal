@@ -19,7 +19,6 @@ const AddComment = () => {
   const [formdata, setFormdata] = useState({
     rating: '',
     text: '',
-    movie: '',
   })
 
   const { movieId, commentId } = useParams()
@@ -40,16 +39,18 @@ const AddComment = () => {
     try {
       if (commentId) {
         console.log('HANDLESUBMIT')
-        const { data } = await axios.put(`/api/movies/comments/${movieId}`, formdata, {
+        const { data } = await axios.put(`/api/movies/comments/${movieId}`, {
+          ...formdata,
+          movie: `${movieId}`,
+        }, {
           headers: {
             Authorization: `Bearer ${getToken()}`,
           },
         })
       } else {
         const { data } = await axios.post('/api/comments/', {
-          rating: '5',
-          text: 'AHHHHHHHHHHHHHHH',
-          movie: '333339',
+          ...formdata,
+          movie: `${movieId}`,
         }, {
           headers: {
             Authorization: `Bearer ${getToken()}`,
