@@ -1,6 +1,13 @@
+
+import PageNavbar from '../common/PageNavbar'
+
+
 const NotFound = () => {
   return (
-    <h1>Not Found</h1>
+    <>
+      <PageNavbar />
+      <h1>Not Found</h1>
+    </>
   )
 }
 

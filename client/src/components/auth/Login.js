@@ -5,6 +5,8 @@ import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import { setToken } from '../../helpers/auth'
 
+import PageNavbar from '../common/PageNavbar'
+
 //bootstrap
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -33,7 +35,7 @@ const Login = () => {
       const { data } = await axios.post('api/auth/login/', formFields)
       console.log(data.token)
       setToken(data.token)
-      // navigate('/') //add page
+      navigate('/')
     } catch (err) {
       setError(err.response.data.message)
     }
@@ -44,30 +46,33 @@ const Login = () => {
 
 
   return (
-    <main className="form-page">
-      <Container className='mt-4'>
-        <Row>
-          <div className='col-10 offset-1 col-md-6 offset-md-3 col-lg-4 offset-lg-4'>
-            <form onSubmit={handleSubmit} className="mt-4">
-              <h1> LOGIN </h1>
+    <>
+      < PageNavbar />
+      <main className="form-page">
+        <Container className='mt-4'>
+          <Row>
+            <div className='col-10 offset-1 col-md-6 offset-md-3 col-lg-4 offset-lg-4'>
+              <form onSubmit={handleSubmit} className="mt-4">
+                <h1> LOGIN </h1>
 
-              {/* email */}
-              <label htmlFor="email">Email <span>*</span></label>
-              <input type="email" name="email" onChange={handleChange} value={formFields.email} placeholder="Email" />
+                {/* email */}
+                <label htmlFor="email">Email <span>*</span></label>
+                <input type="email" name="email" onChange={handleChange} value={formFields.email} placeholder="Email" />
 
-              {/* psw */}
-              <label htmlFor="password">Password <span>*</span></label>
-              <input type="password" name="password" onChange={handleChange} value={formFields.password} placeholder="Password" />
+                {/* psw */}
+                <label htmlFor="password">Password <span>*</span></label>
+                <input type="password" name="password" onChange={handleChange} value={formFields.password} placeholder="Password" />
 
-              {/* error */}
-              {error && <small className='text-danger'>{error}</small>}
-              {/* submit */}
-              <button className="btn btn-main w-100">Login</button>
-            </form>
-          </div>
-        </Row>
-      </Container>
-    </main >
+                {/* error */}
+                {error && <small className='text-danger'>{error}</small>}
+                {/* submit */}
+                <button className="btn btn-main w-100">Login</button>
+              </form>
+            </div>
+          </Row>
+        </Container>
+      </main >
+    </>
   )
 }
 

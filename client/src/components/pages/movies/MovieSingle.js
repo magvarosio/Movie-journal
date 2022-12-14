@@ -3,10 +3,11 @@ import { useState, useEffect, useCallback } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import { getToken } from '../../../helpers/auth'
+
 // import '../../styles/components/moviesrow.scss'
-import MovieCarousel from '../../common/MovieCarousel'
 
 import AddComment from '../AddComment'
+import PageNavbar from '../../common/PageNavbar'
 
 
 import Card from 'react-bootstrap/Card'
@@ -60,6 +61,7 @@ const MovieSingle = () => {
 
   return (
     <>
+      <PageNavbar />
       {movie ? <main className='movie-container'>
         {/* <Card /> */}
         <Card style={{ width: '80rem' }}>

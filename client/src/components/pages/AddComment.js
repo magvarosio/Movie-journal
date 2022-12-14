@@ -5,6 +5,9 @@ import { useParams, useNavigate } from 'react-router'
 import { getToken } from '../../helpers/auth'
 
 
+import PageNavbar from '../common/PageNavbar'
+
+
 const colors = {
   orange: '#FFBA5A',
   grey: '#a9a9a9',
@@ -83,6 +86,7 @@ const AddComment = () => {
 
   return (
     <div>
+      < PageNavbar />
       <form className="container" onSubmit={handleSubmit}>
         <h1>Rating</h1>
         <div className="stars">

@@ -32,8 +32,10 @@ function PageNavbar() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">My Watchlist</Nav.Link>
-            <Nav.Link href="#action2">Boh</Nav.Link>
+            <Nav.Link as={Link} to="/login">Login</Nav.Link>
+            <Nav.Link as={Link} to="/register">Register</Nav.Link>
+            <Nav.Link as={Link} to="/search">Search</Nav.Link>
+
           </Nav>
           {/* <Form className="d-flex">
             <Form.Control

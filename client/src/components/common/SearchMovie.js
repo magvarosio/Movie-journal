@@ -72,7 +72,7 @@ const SearchMovie = () => {
           <>
             <div key={id}>
               <p>{title}</p>
-              < img className="poster"
+              <img className="poster"
                 src={`${urlPosters}${posterPath}`}
                 // key={`${id}`}
                 alt={title} />
