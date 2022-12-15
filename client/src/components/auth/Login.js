@@ -10,10 +10,6 @@ import { setToken } from '../../helpers/auth'
 
 import PageNavbar from '../common/PageNavbar'
 
-//bootstrap
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import { Navbar } from 'react-bootstrap'
 
 const Login = () => {
 
