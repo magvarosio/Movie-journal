@@ -75,7 +75,7 @@ class MovieGenreView(APIView):
     def get(self, _request, genre):
         print('GENREEEEEEE->', genre)
         # iexact -> case insensitive, but exact ---  icontains -> it contains the word
-        movies = Movie.objects.filter(genre_ids=genre)  # not sure
+        movies = Movie.objects.filter(genre_ids=genre)[:20]  # not sure
         serialized_movies = PopulatedMovieSerializer(movies, many=True)
         print('MOVIEEEE GENREEEEEE----->', movies)
         return Response(serialized_movies.data)

@@ -2,14 +2,20 @@
 import { useState, useEffect } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
 import axios from 'axios'
-import '../../styles/components/moviesrow.scss'
+import '../../../styles/components/moviesrow.scss'
+// import requests from '../../helpers/requests'
 
 // import Card from 'react-bootstrap/Card'
 
 const urlPosters = 'http://image.tmdb.org/t/p/original/'
 
-const MoviesRow = () => {
 
+
+
+
+const MoviesGenres = ({ genreId, genreName }) => {
+
+  // const { genreId, genreName } = useParams()
   const navigate = useNavigate()
 
   const [movies, setMovies] = useState([])
@@ -19,7 +25,7 @@ const MoviesRow = () => {
   useEffect(() => {
     const getMovies = async () => {
       try {
-        const { data } = await axios.get('/api/movies/')
+        const { data } = await axios.get(`/api/movies/genre/${genreId}/`)
         setMovies(data)
         // console.log(data)
       } catch (err) {
@@ -27,7 +33,7 @@ const MoviesRow = () => {
       }
     }
     getMovies()
-  }, [])
+  }, [genreId])
 
 
 
@@ -40,9 +46,9 @@ const MoviesRow = () => {
 
 
     <main className='posters-container'>
-
+      <h2>{genreName}</h2>
       <div className="posters image-container d-flex justify-content-start m-3">
-        {movies.map(movie => {
+        {movies && movies.map(movie => {
           const { id, poster_path: posterPath, title } = movie
           return (
             < img
@@ -62,7 +68,7 @@ const MoviesRow = () => {
   )
 }
 
-export default MoviesRow
+export default MoviesGenres
 
 
 // {/* <Card className="poster">

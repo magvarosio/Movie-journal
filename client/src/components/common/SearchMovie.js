@@ -11,26 +11,31 @@ const SearchMovie = () => {
   const navigate = useNavigate()
 
   const [movies, setMovies] = useState([])
-  const [updatedMovies, setUpdatedMovies] = useState([])
   const [query, setQuery] = useState('')
-  const [titleSearch, setTitleSearch] = useState('')
   // filteredMovies
 
 
   useEffect(() => {
+    const ourRequest = axios.CancelToken.source() // <-- 1st step
     const getMovies = async () => {
       try {
-        const { data } = await axios.get(`/api/movies/${query}/`) // add the search (mango)
+        const { data } = await axios.get(`/api/movies/${query}/`, {  // add the search (mango)
+          cancelToken: ourRequest.token,
+        })
         setMovies(data)
         // console.log(data)
       } catch (err) {
+        console.log('REQ CANCELLED---')
         console.log(err.message)
       }
     }
     getMovies()
+    return () => {
+      ourRequest.cancel()
+    }
   }, [query])
 
-  console.log('****movies***', movies)
+  // console.log('****movies***', movies)
 
 
   const handleChange = (e) => {
@@ -75,16 +80,14 @@ const SearchMovie = () => {
       {movies && movies.map(movie => {
         const { id, poster_path: posterPath, title } = movie
         return (
-          <>
-            <div key={id}>
-              <p>{title}</p>
-              <img
-                className="poster"
-                onClick={() => handleNavigation(movie)}
-                src={`${urlPosters}${posterPath}`}
-                alt={title} />
-            </div>
-          </>
+          <div key={id}>
+            <p>{title}</p>
+            <img
+              className="poster"
+              onClick={() => handleNavigation(movie)}
+              src={`${urlPosters}${posterPath}`}
+              alt={title} />
+          </div>
         )
       })}
     </>
