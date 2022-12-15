@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  background-color: #000000;
 
 }
 
@@ -21,18 +22,40 @@ $primary: #000000;
 }
 
 
-.poster-container {
+.posters-container {
   background-color: #000000;
 
 }
 
 h2 {
-  margin-top: 5px;
-  // color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  margin: 5px 0px 0px 42px;
+  font-size: 25px;
 }
 
 
 
+.det-subtitle {
+  font-weight: 700;
+  color: #9f9f9f;
+}
+
+.det-text {
+  font-weight: 600;
+  color: #dc3544;
+}
+
+#title.det-text {
+  font-size: 50px;
+
+}
+
+
+.overview {
+  font-weight: 600;
+  color: #9f9f9f;
+}
 
 
 

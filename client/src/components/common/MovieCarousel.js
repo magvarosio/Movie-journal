@@ -9,7 +9,7 @@ const MovieCarousel = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://savethecat.com/wp-content/uploads/2018/10/4-Apes-POV-768x358.png"
+            src="http://image.tmdb.org/t/p/original//kCEXA22ASuq7Y29jnngyaisyA0X.jpg"
             alt="First slide"
           // width=""
           // height=""
@@ -22,7 +22,7 @@ const MovieCarousel = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://savethecat.com/wp-content/uploads/2018/10/4-Apes-POV-768x358.png"
+            src="	http://image.tmdb.org/t/p/original//rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg"
             alt="Second slide"
           />
 
@@ -34,7 +34,7 @@ const MovieCarousel = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://savethecat.com/wp-content/uploads/2018/10/4-Apes-POV-768x358.png"
+            src="	http://image.tmdb.org/t/p/original//yrdAamkeqXHm0UYukk8xgoCvc7G.jpg"
             alt="Third slide"
           />
 

@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react'
 import axios from 'axios'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 
 // bootstrap
 
@@ -9,6 +9,8 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Form from 'react-bootstrap/Form'
 // import Button from 'react-bootstrap/Button' (remember to import Button later)
+
+
 
 import PageNavbar from '../common/PageNavbar'
 
@@ -53,36 +55,91 @@ const Register = () => {
 
 
   return (
-    <>
+
+    <div>
       < PageNavbar />
-      <main className="form-page">
-        <Container className='mt-4'>
-          <Row>
-            <div className='col-10 offset-1 col-md-6 offset-md-3 col-lg-4 offset-lg-4'>
-              <form onSubmit={handleSubmit} className="mt-4">
-                <h1> REGISTER </h1>
-                {/* username */}
-                <label htmlFor="username">Username <span>*</span></label>
-                <input type="text" name="username" onChange={handleChange} value={formFields.username} placeholder="Username" />
-                {/* email */}
-                <label htmlFor="email">Email <span>*</span></label>
-                <input type="email" name="email" onChange={handleChange} value={formFields.email} placeholder="Email" />
-                {/* psw */}
-                <label htmlFor="password">Password <span>*</span></label>
-                <input type="password" name="password" onChange={handleChange} value={formFields.password} placeholder="Password" />
-                {/* psw confirmation */}
-                <label htmlFor="password_confirmation">Confirm Password <span>*</span></label>
-                <input type="password" name="password_confirmation" onChange={handleChange} value={formFields.passwordConfirmation} placeholder="Password Confirmation" />
-                {/* error */}
-                {error && <small className='text-danger'>{error}</small>}
-                {/* submit */}
-                <button className="btn btn-main w-100">Register</button>
-              </form>
+      <div>
+        <div className="w-full h-screen">
+          <img
+            src="https://res.cloudinary.com/ddy4ifl5i/image/upload/v1671137829/ksdjvdslhvsljhgsdg_gyuawu.png"
+            alt="/"
+            className="hidden sm:block absolute w-full h-full object-cover img-fluid"
+          />
+          <div className="bg-black/60 fixed top-0 left-0 w-full h-screen"></div>
+          <div className="fixed w-full px-4 py-24 z-50">
+            <div className="max-w-[450px] h-[600px] mx-auto bg-black/75 text-white">
+              <div className="max-w-[320px] mx-auto py-16">
+                <h1 className="text-3xl font-bold">Register</h1>
+                <form
+                  onSubmit={handleSubmit}
+                  className="w-full flex flex-col py-4"
+                >
+
+                  <input
+                    className="p-3 my-2 bg-gray-700 rouded text-white"
+                    type="text"
+                    name="username"
+                    placeholder="Username"
+                    autoComplete="username"
+                    onChange={handleChange}
+                    value={formFields.username}
+                    required
+                  />
+
+                  <input
+                    className="p-3 my-2 bg-gray-700 rouded text-white"
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    autoComplete="email"
+                    onChange={handleChange}
+                    value={formFields.email}
+                    required
+                  />
+
+                  <input
+                    className="p-3 my-2 bg-gray-700 rouded text-white"
+                    type="password"
+                    name="password"
+                    placeholder="Password"
+                    autoComplete="current-password"
+                    onChange={handleChange}
+                    required
+                    minLength="6"
+                  />
+
+                  <input
+                    className="p-3 my-2 bg-gray-700 rouded text-white"
+                    type="password"
+                    name="password_confirmation"
+                    placeholder="Password Confirmation"
+                    autoComplete="current-password"
+                    value={formFields.passwordConfirmation}
+                    onChange={handleChange}
+                    required
+                    minLength="6"
+                  />
+
+                  <button className="bg-white py-3 my-6 rounded font-bold">
+                    Sign Up
+                  </button>
+                  <div className="flex justify-between items-center text-sm text-gray-600">
+                  </div>
+                  <p className="py-8">
+                    <span className="text-gray-600">
+                      Already subscribed to Movie Journal?
+                    </span>{' '}
+                    <Link to="/login">Sign In</Link>
+                  </p>
+                </form>
+              </div>
             </div>
-          </Row>
-        </Container>
-      </main >
-    </>
+          </div>
+        </div>
+      </div>
+    </div>
+
   )
 }
 export default Register
+

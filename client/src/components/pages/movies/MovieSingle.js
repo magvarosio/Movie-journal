@@ -11,6 +11,8 @@ import PageNavbar from '../../common/PageNavbar'
 
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import { Modal, ModalBody, ModalHeader, ModalTitle } from 'react-bootstrap'
+import ReactStars from 'react-rating-stars-component'
 
 const urlPosters = 'http://image.tmdb.org/t/p/original/'
 
@@ -54,39 +56,100 @@ const MovieSingle = () => {
   }
 
 
+  const handleNavigation = (movie) => {
+    navigate(`/movies/comments/${movie.id}/`)
+  }
 
-  console.log('****movie!**** -->', movie)
 
 
   return (
     <>
       <PageNavbar />
-      {movie ? <main className='movie-container'>
+
+      {movie ? <main className='movie_page'>
         {/* <Card /> */}
         <Card style={{ width: '80rem' }}>
           <Card.Img variant="top" src={`${urlPosters}${movie.backdrop_path}`} />
-          <Card.Body>
-            {/* <Card.Title>A product name</Card.Title>
-          <Card.Text>
-            Some main content text can go here, a product description for example
-          </Card.Text> */}
-            {/* <Button variant="primary">Review</Button> */}
-          </Card.Body>
         </Card>
 
-        <Button variant="danger">Watched</Button>
-        <Button variant="danger">Add to Watchlist</Button>
-        <h1>{`${movie.title}`}</h1>
+        {/* <Button variant="danger">Watched</Button>
+        <Button variant="danger">Add to Watchlist</Button> */}
+
+        <Link to={`/movies/comments/${movieId}`} className="link">WRITE YOUR THOUGHTS ON IT</Link>
+        <hr />
+
+        <button
+          type="button"
+          onClick={() => handleNavigation(movie)}
+          className="btn btn-outline-danger btn-lg"
+        >WRITE YOUR THOUGHTS ON IT
+
+        </button>
+
+
+        {/* <h1>{`${movie.title}`}</h1>
         <h4>{`Popularity: ${movie.popularity}`}</h4>
-        <p>{`Overview: ${movie.overview}`}</p>
+        <p>{`Overview: ${movie.overview}`}</p> */}
         < img className="poster"
           src={`${urlPosters}${movie.poster_path}`}
           key={`${movieId}`}
           alt={movie.title} />
 
 
+        {/* ? NON FUNZIONA  
+
+        <Modal
+          // show={isOpen}
+          // onHide={() => setIsOpen(false)}
+          size="lg"
+          aria-labelledby="contained-modal-title-vcenter"
+          centered
+        >
+          <ModalHeader closeButton>
+            <ModalTitle
+              id="contained-modal-title-vcenter"
+              style={{ color: '#000', fontWeight: 700 }}
+            >
+              {movie.title}
+            </ModalTitle>
+          </ModalHeader>
+          <ModalBody style={{ backgroundColor: '#000' }}>
+            < img className="poster"
+              src={`${urlPosters}${movie.poster_path}`}
+              key={`${movieId}`}
+              alt={movie.title} />
+          </ModalBody>
+        </Modal> */}
+
+
+
+
+        <div className="col-md-3">
+          <p className="det-text bg-gradient-danger" id="title">{movie.title}</p>
+        </div>
+
+        <div className="col-md-3">
+          <p className="det-subtitle">Popularity</p>
+          <p className="det-text">{movie.popularity}</p>
+        </div>
+
+        <div className="col-md-3">
+          <div className="col">
+            <p className="det-subtitle">VOTE AVERAGE</p>
+            <ReactStars vote_average={movie.vote_average} />
+          </div>
+        </div>
+
+        <div className="mt-3">
+          <p className="det-subtitle">OVERVIEW</p>
+          <p className="overview">{movie.overview}</p>
+        </div>
+
+
         {/* Comments */}
-        <h2><span>💬</span> Comments </h2>
+        <div className="mt-3">
+          <p className="det-subtitle">THOUGHTS ON FILM</p>
+        </div>
         <div>
           {movie.comments.map(comment => {
             return (
@@ -102,15 +165,10 @@ const MovieSingle = () => {
           })}
         </div>
 
-        <Link to={`/movies/comments/${movieId}`}>Add comment</Link>
-        <hr />
-        <Link to="/" className='btn btn-main'>Back to home</Link>
 
       </main > : <p> loading</p>}
       {/* page loader? */}
 
-
-      {/* <AddComment /> */}
     </>
   )
 }
