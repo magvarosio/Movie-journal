@@ -9,25 +9,28 @@ $primary: #000000;
 
 
 .navbar {
-  background-color: darken($primary, 0%);
 
   .nav-link {
     cursor: pointer;
     color: rgb(219, 215, 215);
   }
+
+  .nav-toggle {
+    color: white;
+  }
 }
 
 
-// .btn-custom {
-//   // color: #fff;
-//   // background-color: #e31414;
-//   // border-color: #550202;
-//   background-color: #1F2833;
-//   border-color: #45A293;
-//   border: 3px solid-transparent;
-//   color: #45A293;
-//   border-radius: 100px;
-// }
+.poster-container {
+  background-color: #000000;
+
+}
+
+h2 {
+  margin-top: 5px;
+  // color: rgb(0, 0, 0);
+}
+
 
 
 

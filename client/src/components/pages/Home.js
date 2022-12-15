@@ -10,10 +10,6 @@ import axios from 'axios'
 
 
 
-
-
-
-
 const Home = () => {
 
 
@@ -37,7 +33,6 @@ const Home = () => {
     <>
       <PageNavbar />
       <MovieCarousel />
-      <MoviesRow />
       {genres.map(genre =>
         <MovieGenres key={genre.id} genreName={genre.name} genreId={genre.id} />)}
 

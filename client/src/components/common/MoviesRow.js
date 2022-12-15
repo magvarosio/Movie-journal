@@ -8,7 +8,7 @@ import '../../styles/components/moviesrow.scss'
 
 const urlPosters = 'http://image.tmdb.org/t/p/original/'
 
-const MoviesRow = () => {
+const MoviesRow = ({ mostwatched }) => {
 
   const navigate = useNavigate()
 

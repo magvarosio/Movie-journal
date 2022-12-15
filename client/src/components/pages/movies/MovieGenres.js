@@ -15,7 +15,6 @@ const urlPosters = 'http://image.tmdb.org/t/p/original/'
 
 const MoviesGenres = ({ genreId, genreName }) => {
 
-  // const { genreId, genreName } = useParams()
   const navigate = useNavigate()
 
   const [movies, setMovies] = useState([])

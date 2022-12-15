@@ -21,7 +21,7 @@ const MovieSingle = () => {
 
   const { movieId } = useParams()
   const navigate = useNavigate()
-  console.log(movieId)
+  // console.log(movieId)
 
 
   const getMovie = useCallback(async () => {

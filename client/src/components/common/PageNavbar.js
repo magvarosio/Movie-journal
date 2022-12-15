@@ -16,7 +16,7 @@ function PageNavbar() {
 
   return (
 
-    <Navbar bg="black" expand="lg">
+    <Navbar bg="black" expand="lg" variant="dark">
       <Container fluid>
         {/* logo */}
         <Navbar.Brand as={Link} to="/">
@@ -29,8 +29,9 @@ function PageNavbar() {
           /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
+
           <Nav
-            className="me-auto my-2 my-lg-0"
+            className="justify-content-end flex-grow-1 pe-3"
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
