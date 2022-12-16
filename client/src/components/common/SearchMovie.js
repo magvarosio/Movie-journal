@@ -12,7 +12,7 @@ const SearchMovie = () => {
   const navigate = useNavigate()
 
   const [movies, setMovies] = useState([])
-  const [query, setQuery] = useState('')
+  const [query, setQuery] = useState('a')
   // filteredMovies
 
 
@@ -24,13 +24,13 @@ const SearchMovie = () => {
           cancelToken: ourRequest.token,
         })
         setMovies(data)
-        // console.log(data)
+        console.log(data)
       } catch (err) {
         console.log('REQ CANCELLED---')
         console.log(err.message)
       }
     }
-    getMovies()
+    if (query) getMovies()
     return () => {
       ourRequest.cancel()
     }
@@ -70,7 +70,7 @@ const SearchMovie = () => {
 
       {/* list movies */}
       <div className="listmovies">
-        {movies && movies.map(movie => {
+        {movies.length > 0 && movies.map(movie => {
           const { id, poster_path: posterPath, title } = movie
           return (
             <div

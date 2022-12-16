@@ -13,6 +13,7 @@ requests = "*"
 jwt = "*"
 pyjwt = "*"
 django-environ = "*"
+django-on-heroku = "*"
 
 [dev-packages]
 
