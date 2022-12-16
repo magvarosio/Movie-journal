@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  background-color: #000000;
+
+}
+
+
+$primary: #000000;
+
+
+
+.navbar {
+
+  .nav-link {
+    cursor: pointer;
+    color: rgb(219, 215, 215);
+  }
+
+  .nav-toggle {
+    color: white;
+  }
+}
+
+
+.posters-container {
+  background-color: #000000;
+
+}
+
+h1 {
+  color: rgb(247, 19, 19);
+  font-size: 50px;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  margin: 5px 0px 0px 42px;
+  font-size: 25px;
+}
+
+
+
+.det-subtitle {
+  font-weight: 700;
+  color: #9f9f9f;
+  font-size: 20px;
+}
+
+.det-text {
+  font-weight: 600;
+  color: #dc3544;
+}
+
+#title.det-text {
+  font-size: 50px;
+
+}
+
+
+.overview {
+  font-weight: 600;
+  color: #9f9f9f;
+}
+
+
+
+
+div.card.banner-card {
+  background-color: #000000;
+}
+
+
+
+.form-page {
+  form {
+    background: #d1cfcf;
+    padding: 40px;
+    border-radius: 18px;
+
+    label {
+      font-size: 0.9rem;
+    }
+
+    input {
+      width: 100%;
+      margin-bottom: 15px;
+      border: none;
+      padding: 5px;
+    }
+
+    small {
+      display: block;
+      margin-bottom: 15px;
+      font-size: 100px;
+    }
+  }
+}
+
+
+textarea.form-control {
+  margin: 20px 0;
+}
+
+
+.listmovies {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.h2 {
+  color: red;
+  margin: 0;
+}
+
+small.text-danger {
+  font-size: larger;
+  padding: 10px;
+}
