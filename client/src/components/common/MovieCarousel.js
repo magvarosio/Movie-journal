@@ -14,7 +14,7 @@ const MovieCarousel = () => {
           />
           <Carousel.Caption>
             <h3>Your Movie Journal</h3>
-            <p>Get started!</p>
+            <p>Pick a movie and start your diary!</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -26,7 +26,7 @@ const MovieCarousel = () => {
 
           <Carousel.Caption>
             <h3>Your Movie Journal</h3>
-            <p>Get started!</p>
+            <p>Pick a movie and start your diary!</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -39,7 +39,7 @@ const MovieCarousel = () => {
           <Carousel.Caption>
             <h3>Your Movie Journal</h3>
             <p>
-              Get started!
+              Pick a movie and start your diary!
             </p>
           </Carousel.Caption>
         </Carousel.Item>

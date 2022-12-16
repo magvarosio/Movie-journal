@@ -15,7 +15,7 @@ const colors = {
 
 const AddComment = () => {
   const [hoverValue, setHoverValue] = useState(undefined)
-  const stars = Array(5).fill(0)
+  const stars = Array(10).fill(0)
 
 
 
@@ -93,7 +93,7 @@ const AddComment = () => {
     <div>
       < PageNavbar />
       <form className="container" onSubmit={handleSubmit}>
-        <h1>Rating</h1>
+        <h1>Write your thoughts</h1>
         <div className="stars">
           {stars.map((_, index) => {
             return (
