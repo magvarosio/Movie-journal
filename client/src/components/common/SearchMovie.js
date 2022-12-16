@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import { MDBCol, MDBIcon } from 'mdbreact'
 import PageNavbar from '../common/PageNavbar'
+import MoviesRow from '../common/MoviesRow'
 
 const urlPosters = 'http://image.tmdb.org/t/p/original/'
 
@@ -50,6 +51,7 @@ const SearchMovie = () => {
   return (
     <>
       <PageNavbar />
+      <h1>Pick a Movie or search it here</h1>
 
       <MDBCol md="6">
         <form className="form-inline mt-4 mb-4">
@@ -64,32 +66,27 @@ const SearchMovie = () => {
         </form>
       </MDBCol>
 
-      {/* 
-      <div className="search-movie">
-        <input
-          onChange={handleChange}
-          type="text"
-          placeholder="Search for a Movie"
-          value={query}
-        /> */}
 
-      {/* {movies && movies.map(movie =>
-          <p key={movie.id}>{movie.title}</p>
-        )} */}
 
-      {movies && movies.map(movie => {
-        const { id, poster_path: posterPath, title } = movie
-        return (
-          <div key={id}>
-            <p>{title}</p>
-            <img
-              className="poster"
-              onClick={() => handleNavigation(movie)}
-              src={`${urlPosters}${posterPath}`}
-              alt={title} />
-          </div>
-        )
-      })}
+      {/* list movies */}
+      <div className="listmovies">
+        {movies && movies.map(movie => {
+          const { id, poster_path: posterPath, title } = movie
+          return (
+            <div
+              key={id}>
+
+
+              <img
+                className="poster"
+                onClick={() => handleNavigation(movie)}
+                src={`${urlPosters}${posterPath}`}
+                alt={title} />
+            </div>
+          )
+        })}
+      </div>
+
     </>
   )
 }

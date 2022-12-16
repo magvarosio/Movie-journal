@@ -69,7 +69,12 @@ const Register = () => {
           <div className="fixed w-full px-4 py-24 z-50">
             <div className="max-w-[450px] h-[600px] mx-auto bg-black/75 text-white">
               <div className="max-w-[320px] mx-auto py-16">
+
+                {/* Registrer */}
                 <h1 className="text-3xl font-bold">Register</h1>
+                {/* submit */}
+
+
                 <form
                   onSubmit={handleSubmit}
                   className="w-full flex flex-col py-4"
@@ -120,10 +125,10 @@ const Register = () => {
                     minLength="6"
                   />
 
-                  <button className="bg-white py-3 my-6 rounded font-bold">
+                  <button className="btn btn-outline-danger py-3 my-6 rounded font-bold">
                     Sign Up
                   </button>
-                  <div className="flex justify-between items-center text-sm text-gray-600">
+                  <div className="flex justify-between items-center text-sm text-gray-600 ">
                   </div>
                   <p className="py-8">
                     <span className="text-gray-600">

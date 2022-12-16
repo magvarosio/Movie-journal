@@ -59,7 +59,9 @@ const Login = () => {
         <div className="fixed w-full px-4 py-24 z-50">
           <div className="max-w-[450px] h-[600px] mx-auto bg-black/75 text-white">
             <div className="max-w-[320px] mx-auto py-16">
-              <h1 className="text-3xl font-bold">Sign In</h1>
+
+              <h1 className="text-3xl font-bold">Login</h1>
+
               {error ? <p className='p-3 bg-red-500 my-2'>{error}</p> : null}
 
               <form onSubmit={handleSubmit} className="w-full flex flex-col py-4">
@@ -86,7 +88,7 @@ const Login = () => {
                   minLength="6"
                 />
                 <button
-                  className="bg-white py-3 my-6 rounded font-bold">
+                  className="btn btn-outline-danger py-3 my-6 rounded font-bold">
                   Sign In
                 </button>
                 <div className="flex justify-between items-center text-sm text-gray-600">
