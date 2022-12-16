@@ -107,17 +107,19 @@ const AddComment = () => {
               />
             )
           })}
-        </div>
+
+        </div >
         <textarea
-          placeholder="Give a rating by clicking the stars and leave some feedback"
-          className="textarea"
+          placeholder="Write your thoughts on the Movie"
+          className="form-control"
           name="text"
+          rows="8"
           onChange={handleChange}
         />
         <div>
 
-          <button className="submit-feedback-button" >
-            Submit feedback
+          <button className="btn btn-outline-danger btn-lg " >
+            Submit
           </button>
           {/* Error Message */}
           {error && <small className='text-danger'>{error}</small>}

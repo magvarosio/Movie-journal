@@ -90,22 +90,26 @@ const MovieSingle = () => {
 
 
         <main className='movie_page'>
-          <Row>
-            {/* <Col md="2">
+
+
+          {/* <Col md="2">
               <Card style={{ width: '80rem' }}>
                 <Card.Img variant="top" src={`${urlPosters}${movie.backdrop_path}`} />
               </Card>
             </Col> */}
 
-            <div className="w-full h-screen">
-              <img
-                src={`${urlPosters}${movie.backdrop_path}`}
-                alt="/"
-                className="hidden sm:block absolute w-full h-full object-cover img-fluid"
-              />
-            </div>
+          <div className="card banner-card">
+            <img
+              src={`${urlPosters}${movie.backdrop_path}`}
+              alt="/"
+              className="hidden sm:block absolute w-full h-full object-cover img-fluid"
+            />
+            <h1 className="card-title banner-title det-text">{movie.title}</h1>
+          </div>
 
-            <hr />
+          <hr />
+
+          <Row>
 
 
             <Col md="2">
@@ -116,15 +120,15 @@ const MovieSingle = () => {
             </Col>
 
 
-            <Col md="6">
+            {/* <Col md="6">
               <div >
-                <p className="det-text bg-gradient-danger" id="title">{movie.title}</p>
+                <p className="det-text bg-gradient-danger" id="title">Original title: {movie.original_title}</p>
               </div>
-            </Col>
+            </Col> */}
 
             <Col md="6">
               <div >
-                <p className="det-subtitle">Popularity</p>
+                <p className="det-subtitle">POPULARITY</p>
                 <p className="det-text">{movie.popularity}</p>
               </div>
 
@@ -212,7 +216,7 @@ const MovieSingle = () => {
                     <div className="d-flex flex-start">
                       <MDBCardImage
                         className="rounded-circle shadow-1-strong me-3"
-                        src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=170667a&w=0&k=20&c=bsbD0qLFJ6fSUCXG_iyo7JBnmKi6T-uUblC8FNZFJoU="
+                        src="https://previews.123rf.com/images/asmati/asmati1610/asmati161000233/63831576-user-sign-illustration-white-icon-on-red-circle-.jpg"
                         alt="avatar"
                         width="60"
                         height="60"
