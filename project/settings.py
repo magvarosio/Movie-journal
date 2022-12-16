@@ -10,6 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
+import os
+
 from pathlib import Path
 
 import environ
@@ -65,7 +67,8 @@ ROOT_URLCONF = 'project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        # Look, we have added the root folder of frontend here
+        'DIRS': [os.path.join(BASE_DIR, 'client')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -143,3 +146,12 @@ REST_FRAMEWORK = {
         'jwt_auth.authentication.JWTAuthentication'  #  appname.filename.classname
     ]
 }
+
+
+ROOT_URLCONF = 'project.urls'  # check if you have this already, if not add it in
+
+STATIC_URL = '/static/'  # same with this
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'client', "build", "static"),
+)

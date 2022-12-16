@@ -46,7 +46,7 @@ const AddComment = () => {
     try {
       if (commentId) {
         console.log('HANDLESUBMIT')
-        const { data } = await axios.put(`/api/movies/comments/${movieId}`, {
+        const { data } = await axios.put(`/api/movies/comments/${movieId}/`, {
           ...formdata,
           movie: `${movieId}`,
         }, {
