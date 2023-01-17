@@ -36,58 +36,58 @@ As a fan of film, I was inspired by the various features of Letterbox and Netfli
 ## Technologies Used
 
 #### Frontend
-* React
-* Axios
-* React Bootstrap 
-* SASS
-* CSS3
+- [x] React
+- [x] Axios
+- [x] React Bootstrap 
+- [x] SASS
+- [x] CSS3
 
 #### Backend
-* Python
-* Django
-* Django REST Framework 
-* PostgreSQL 
-* PyJWT
-* Axios
-* Psycopg2
+- [x] Python
+- [x] Django
+- [x] Django REST Framework 
+- [x] PostgreSQL 
+- [x] PyJWT
+- [x] Axios
+- [x] Psycopg2
 
 #### Development Tools
-* VScode
-* Insomnia
-* Git 
-* GitHub
-* Excalidraw
-* Heroku
-* Canva
-* Google Chrome development tools
+- [x] VScode
+- [x] Insomnia
+- [x] Git 
+- [x] GitHub
+- [x] Excalidraw
+- [x] Heroku
+- [x] Canva
+- [x] Google Chrome development tools
 
 ## Installation instructions
 
 * Clone or download the repo
 * Install the back-end dependencies: 
-    run **pipenv** 
+    run `pipenv` 
 * Enter Shell for project: 
-    run **pipenv shell**
+    run `pipenv shell`
 * Make Migrations:
-    **python manage.py makemigrations**
+    `python manage.py makemigrations`
 * Migrate:
-    **python manage.py migrate**
+    `python manage.py migrate`
 * Load Seed data for Genres:
-    **python manage.py loaddata genres/seeds.json**
+    `python manage.py loaddata genres/seeds.json`
 * Load Seed data for Movies:
-    **python manage.py loaddata movies/seeds.json**
+    `python manage.py loaddata movies/seeds.json`
 *  Load Seed data for Users:
-    **python manage.py loaddata jwt_auth/seeds.json**
+    `python manage.py loaddata jwt_auth/seeds.json`
 * Load Seed data for Comments:
-    **python manage.py loaddata comments/seeds.json**
+    `python manage.py loaddata comments/seeds.json`
 * Start the back-end server: 
-    **python manage.py runserver**
+    `python manage.py runserver`
 * Change into front-end directory: 
-    run **cd client**
+    run `cd client`
 * Install front-end dependencies: 
-    run **npm** 
+    run `npm i` 
 * Start the front-end server: 
-    run **npm start**
+    run `npm start`
     
 
 ### Brief 
@@ -115,9 +115,12 @@ I created a plan for the frontend Wireframe after researching the layout of movi
 
 ![image12](https://user-images.githubusercontent.com/112773333/212888777-72c3e907-4f73-4d7e-8e54-5ec376255326.png)
 
+
 On the first day, I brainstormed ideas and concepts for the project and decided to create a website similar to Letterbox, but with a user interface like Netflix. I made a basic Wireframe and planned the website’s appearance using Excalidraw. I also created an entity relationship diagram for my database tables and relationships and started each day checking the plan to be sure to hit the deadline. I decided it would be better to have a separate genres Model, this way, I could create a many-to-many relationship with movies, allowing users to search a film on the frontend by genre.
 
+
 ![image1](https://user-images.githubusercontent.com/112773333/212888967-5d29f3ee-28d7-4b8d-a86b-3a962c1b5a11.png)
+
 
 Then I started working on the backend, setting up the PostgreSQL database, seeding the database, and installing necessary dependencies.
 Using Django, I created the 'apps' for the games, media, comments, genres, and authentication, and then wrote the models, URLs, and views for all of them.
@@ -132,6 +135,7 @@ This is my database on TablePlus:
 
 ![image13](https://user-images.githubusercontent.com/112773333/212889975-389dda78-f8b9-4ef0-bebf-1fe5a9d8b883.png)
 
+
 ### Models
 
 The “app_name.ModelName” specifies the relationship with the foreign table, in this case genres.Genre.
@@ -143,10 +147,12 @@ The “app_name.ModelName” specifies the relationship with the foreign table, 
 
 After that, I only wrote serializers for each app as needed and added additional RESTful routes and serializers:
 
+
 ![Screenshot 2023-01-17 at 11 43 52](https://user-images.githubusercontent.com/112773333/212890550-43fbff7e-9b65-4094-b778-663947a8365c.png)
 
 
 Then, I populated by the other models they have a relationship with each model:
+
 
 ![Screenshot 2023-01-17 at 11 44 23](https://user-images.githubusercontent.com/112773333/212890646-78dea435-9143-4237-8916-eac9532dfbe8.png)
 
@@ -156,7 +162,9 @@ Then, I populated by the other models they have a relationship with each model:
 Movies.objects.all() makes a request to the database for all entries in the movies table, and then I populated the movies using PopulatedMovieSerializer.
 I decided to request to the database the first 20 movies adding [:20] after Movies.objects.all() because when I worked on the frontend I realised it was time consuming to request all the 5000 movies circa in my database 
 
+
 ![Screenshot 2023-01-17 at 11 45 42](https://user-images.githubusercontent.com/112773333/212890900-c9d8af65-d314-45f5-8339-b9857ee62ebb.png)
+
 
 ![Screenshot 2023-01-17 at 11 46 46](https://user-images.githubusercontent.com/112773333/212891080-f7ff736f-3378-44d5-ae5e-d20dc1e16b04.png)
 
@@ -168,6 +176,7 @@ I decided to request to the database the first 20 movies adding [:20] after Movi
 Then I began adding a React front end to the project and divided the router and component setup.
 I designed the logo and navbar and moved on to the frontend authentication.
 I also started styling the homepage, and displayed the movies with a hover effect. The cover scales up when the user is going through each movie.
+
 
 ![image6](https://user-images.githubusercontent.com/112773333/212891282-aad5ef8a-f8a3-40ce-89cb-58ecb05c6e27.png)
 
@@ -181,6 +190,7 @@ I also started styling the homepage, and displayed the movies with a hover effec
 
 I utilised JsonWebToken to check the user's validity. This was utilised in conjunction with a secure route that used the token to verify users.
 
+
 <img width="459" alt="Screenshot 2023-01-17 at 11 51 31" src="https://user-images.githubusercontent.com/112773333/212891994-2ae99aa0-3765-4970-85fd-40abdf011483.png">
 
 
@@ -192,7 +202,9 @@ The getMovies function is created to actually get the movie data from the server
 If there's an error while trying to get the movie data, it logs 'REQ CANCELLED---' and the error message.
 The useEffect cleanup function is returned, which cancels the request if the component unmounts or the search query changes.
 
+
 <img width="989" alt="image7" src="https://user-images.githubusercontent.com/112773333/212892217-3ff3b0b7-72f3-4b55-aba5-2b8abb6595ab.png">
+
 
 <img width="618" alt="Screenshot 2023-01-17 at 11 55 13" src="https://user-images.githubusercontent.com/112773333/212892660-ec1fafad-e34b-4c5a-858f-c2ff9f251cbe.png">
 
@@ -200,9 +212,12 @@ The useEffect cleanup function is returned, which cancels the request if the com
 
 On the final days, I added the comments form and styled all the individual movie info pages, adding the comments and avatars.
 
+
 <img width="860" alt="image4" src="https://user-images.githubusercontent.com/112773333/212894166-4e0d192a-5e56-4fb5-9553-2706351c3f38.png">
 
+
 <img width="846" alt="image2" src="https://user-images.githubusercontent.com/112773333/212894192-c5fce1db-4447-40a4-b4c1-79f04f720e88.png">
+
 
 ![image8](https://user-images.githubusercontent.com/112773333/212894240-ab4a6130-f8b2-4f71-8947-e9a667a5b042.png)
 
@@ -210,7 +225,9 @@ On the final days, I added the comments form and styled all the individual movie
 
 I double-checked all my routes while building them in Insomnia, here are the genres and the comments routes on insomnia:
 
+
 ![image5](https://user-images.githubusercontent.com/112773333/212894459-24ff614a-608d-4bcf-9d01-05115bfe61bd.png)
+
 
 ![image9](https://user-images.githubusercontent.com/112773333/212894373-5756a992-12d0-4cc1-ad6c-529c9cd606ef.png)
 
