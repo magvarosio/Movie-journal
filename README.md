@@ -7,6 +7,7 @@
 
 ## Table of Contents
 - [Concept](#concept)
+- [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
 - [Brief](#brief)
 - [Installation instructions](#installation-instructions)
@@ -31,6 +32,14 @@ I worked on a movie app as a solo project creating my own movie database using d
 
 This app allows users to browse and search for movies, view movie details, and rate and review movies. 
 As a fan of film, I was inspired by the various features of Letterbox and Netflix and wanted to combine them to create a visually appealing and interactive social media platform for film enthusiasts. It took me eight days to complete the project as a solo developer.
+
+
+## Deployment
+
+Please follow this link to view the Project: https://moviejournal-project.herokuapp.com/
+
+Repository link: https://github.com/magvarosio/Movie-journal 
+
 
 
 ## Technologies Used
