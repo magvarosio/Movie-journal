@@ -1,3 +1,5 @@
+<a id="idtext"></a>
+
 # 🎬 Movie Journal 🎬 
 
 ![image11](https://user-images.githubusercontent.com/112773333/212883677-68a7e75a-6e41-4e9a-abf7-348d18b2c6c8.png)
