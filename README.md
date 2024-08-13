@@ -262,7 +262,7 @@ Overall, working on this project allowed me to apply everything I had previously
 The watchlist and the user profile are two extra features that I would like to add.
 
 ## Authors
-- LinkedIn - [Margherita (Mag) Varosio](https://www.linkedin.com/in/margherita-varosio/)
-- Email - margherita.varosio@gmail.com
+
+- Email - amvarosio8@gmail.com
  
 [Back to the top ⬆️](#idtext)
